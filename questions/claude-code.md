@@ -1,0 +1,86 @@
+# Claude Code 面试题
+
+来源：[面试鸭 · Claude Code 面试题](https://www.mianshiya.com/bank/2082027801073975298)
+
+题库当前共 80 题，按题库顺序收录题干。题解留在面试鸭，这里只做练习清单。练完一题，把 `- [ ]` 改成 `- [x]`。
+
+- [ ] [Resume 与 Fork session 在会话管理上产生何种不同的数据副作用？二者对 session ID 和历史记录的处理逻辑分别是什么？](https://www.mianshiya.com/question/2082027808208486401) · 简单
+- [ ] [Agent SDK 与 Subagents 的关系是什么？前者为后者提供了哪些不可替代的底层能力？](https://www.mianshiya.com/question/2082027809273839618) · 简单
+- [ ] [Agent SDK 默认将哪三类状态写入容器本地磁盘？这些状态在容器重启、缩容或跨节点迁移时是否会丢失？](https://www.mianshiya.com/question/2082027809718435842) · 简单
+- [ ] [Agent 的标准执行循环（Agent Loop）包含哪些关键阶段？各阶段的核心职责是什么？](https://www.mianshiya.com/question/2082027810217558017) · 简单
+- [ ] [Auto memory (MEMORY.md) 在 session 启动时被加载到上下文，决定加载量的两个约束条件是什么？](https://www.mianshiya.com/question/2082027810997698561) · 简单
+- [ ] [Bundled skills（如 ＿code-review、＿debug）与内置命令（如 ＿help、＿compact）在执行机制上的根本区别是什么？](https://www.mianshiya.com/question/2082027811547152386) · 简单
+- [ ] [CLAUDE.md 文件与 Auto Memory 分别代表哪两类记忆机制？它们在生命周期、控制权和持久化方式上有何根本差异？](https://www.mianshiya.com/question/2082027812071440386) · 简单
+- [ ] [Channels 在 Claude Code 中的作用是什么？其与传统轮询式或新建会话式集成的核心区别何在？](https://www.mianshiya.com/question/2082027812524425217) · 简单
+- [ ] [Claude Agent SDK 提供哪两种输入模式？它们在会话生命周期、上下文持久性和中断处理能力上的核心差异是什么？](https://www.mianshiya.com/question/2082027813350703105) · 简单
+- [ ] [Claude Code Agent SDK 中，MCP 工具的命名规范是什么？为何该规范对权限控制至关重要？](https://www.mianshiya.com/question/2082027813749161985) · 简单
+- [ ] [Claude Code Agent SDK 支持哪些类型的插件组件？请列举并说明其作用。](https://www.mianshiya.com/question/2082027814147620865) · 简单
+- [ ] [Claude Code 中，managed-mcp.json 文件与 allowedMcpServers⧸deniedMcpServers 配置项在 MCP 服务器管控中分别承担什么角色？二者是否可叠加生效？](https://www.mianshiya.com/question/2082027814558662658) · 简单
+- [ ] [Claude Code 如何保证 subagent worktree 在运行期间不被自动清理？其底层依赖的 Git 机制是什么？](https://www.mianshiya.com/question/2082027815284277249) · 简单
+- [ ] [Claude Code 如何实现对项目全量文件的跨文件协同编辑能力？该能力与传统'inline code assistant'的本质差异是什么？](https://www.mianshiya.com/question/2082027815657570305) · 简单
+- [ ] [Claude Code 对 checkpoint 数量（100个）和生命周期（30天，默认可配置）的约束，体现了其在 Agent Loop 中对哪两类资源的显式权衡？](https://www.mianshiya.com/question/2082027816035057666) · 简单
+- [ ] [Claude Code 插件中，技能名称的命名空间由什么决定？为什么需要这种命名空间机制？](https://www.mianshiya.com/question/2082027816408350721) · 简单
+- [ ] [Claude Code 的 Agent SDK 中，一个完整的 agent loop 包含哪五个核心消息类型？它们各自在循环中承担什么语义角色？](https://www.mianshiya.com/question/2082027816752283650) · 简单
+- [ ] [Claude Code 的 Agent 执行循环（Agent Loop）是如何设计与运行的？请说明各阶段职责及工具调用时机。](https://www.mianshiya.com/question/2082027817507258370) · 简单
+- [ ] [Claude Code 的 Bash 沙箱如何实现网络隔离？其依赖的核心工具链是什么？](https://www.mianshiya.com/question/2082027817897328641) · 简单
+- [ ] [Claude Code 的 Memory _ 项目记忆机制（如 CLAUDE.md、会话记忆）如何工作？与通用 Agent Memory 有何差异？](https://www.mianshiya.com/question/2082027818258038785) · 简单
+- [ ] [Claude Code 的 agentic loop 包含哪三个核心阶段？这些阶段如何体现'闭环反馈'特性？](https://www.mianshiya.com/question/2082027818635526146) · 简单
+- [ ] [Claude Code 的 checkpointing 机制如何平衡上下文窗口管理与状态可逆性？请结合 rewind 的 'Summarize from here' 和 'Summarize up to here' 两种操作说明其设计意图。](https://www.mianshiya.com/question/2082027818987847681) · 简单
+- [ ] [Claude Code 的 context window 包含哪些关键组成部分？当上下文逐渐填满时，系统通过何种机制应对容量限制？](https://www.mianshiya.com/question/2082027819755405313) · 简单
+- [ ] [Claude Code 的 hooks 在哪些生命周期阶段支持阻断（block）工具调用？请结合事件名称与决策机制说明。](https://www.mianshiya.com/question/2082027820204195841) · 简单
+- [ ] [Claude Code 的 hooks 机制如何实现对工具调用前的确定性拦截（例如阻止编辑受保护文件）？其退出码语义和反馈路径是什么？](https://www.mianshiya.com/question/2082027820682346497) · 简单
+- [ ] [Claude Code 的上下文治理（Context Management）常见策略有哪些？如何在长会话中保持有效上下文？](https://www.mianshiya.com/question/2082027821269549058) · 简单
+- [ ] [Claude Code 的上下文窗口填满后会导致什么后果？为什么这是最重要的资源约束？](https://www.mianshiya.com/question/2082027822041300993) · 简单
+- [ ] [Claude Code 的多层架构大致如何划分？各层分别解决什么工程问题？](https://www.mianshiya.com/question/2082027822410399746) · 简单
+- [ ] [Claude Code 的权限系统中，deny、ask、allow 三类规则的匹配优先级是什么？](https://www.mianshiya.com/question/2082027822758526977) · 简单
+- [ ] [Claude Code 的权限系统如何处理 bash 命令的执行控制？其核心机制（如 AST 解析）与传统字符串匹配方案的关键区别是什么？](https://www.mianshiya.com/question/2082027823136014337) · 简单
+- [ ] [Claude Code 被定义为一种 'agentic coding tool'，其核心能力体现于哪三个关键行为？请结合产品定位说明。](https://www.mianshiya.com/question/2082027823513501698) · 简单
+- [ ] [Claude Code 通过 MCP 协议连接外部工具时，支持哪几种传输类型？其中已被标记为 deprecated 的是哪一种？](https://www.mianshiya.com/question/2082027824276865025) · 简单
+- [ ] [Code Review 如何通过 Check Run 输出实现与 CI 系统的工程化集成，而不破坏现有分支保护策略？](https://www.mianshiya.com/question/2082027824763404290) · 简单
+- [ ] [MCP Tool Search 如何优化 context window 使用？其延迟加载的具体对象是什么？](https://www.mianshiya.com/question/2082027825149280257) · 简单
+- [ ] [MCP 扩展的核心定位是什么？它与内置工具（如文件操作、执行）的关键边界在哪里？](https://www.mianshiya.com/question/2082027825497407490) · 简单
+- [ ] [MCP 服务器如何安全地获取项目根目录路径以进行受限文件系统访问？为何推荐优先使用 roots／list 请求而非依赖环境变量？](https://www.mianshiya.com/question/2082027826260770817) · 简单
+- [ ] [MCP 服务器的安全责任模型是怎样的？Anthropic 对第三方 MCP 服务器是否执行安全审计？依据原文说明。](https://www.mianshiya.com/question/2082027826650841090) · 简单
+- [ ] [Plugin 作为打包层，如何解决多仓库复用与跨团队分发问题？其技能命名机制（如 ⧸my-plugin:review）解决了什么冲突？](https://www.mianshiya.com/question/2082027827036717058) · 简单
+- [ ] [Skills、Hooks 和 Routines 三者在自动化层级上如何分层？请依据文档说明各自适用的抽象粒度与触发边界。](https://www.mianshiya.com/question/2082027827414204417) · 简单
+- [ ] [PreCompact 和 PostCompact hook 事件分别在 context management 的哪个环节触发？它们可用于实现哪些工程实践？](https://www.mianshiya.com/question/2082027827774914561) · 简单
+- [ ] [agent teams 的适用场景强调'平行探索'价值，哪些任务类型明确被列为强适用用例？请列举至少三项。](https://www.mianshiya.com/question/2082027828521500673) · 简单
+- [ ] [computer-use 在 CLI 中为何采用'机器级独占锁'设计（v2.1.195+），且锁生命周期绑定至会话退出而非单次操作完成？](https://www.mianshiya.com/question/2082027828869627905) · 简单
+- [ ] [hook 的执行机制强调哪三个核心特征：触发时机、确定性、配置层级？](https://www.mianshiya.com/question/2082027829230338050) · 简单
+- [ ] [security-guidance 插件明确声明'不使用编写代码的同一 Claude 实例进行自我评审'，其 end-of-turn 和 commit review 是如何通过 Agent SDK 实现隔离的上下文与独立 prompt 的？](https://www.mianshiya.com/question/2082027829624602626) · 简单
+- [ ] [subagent 的作用域（scope）由文件位置决定。当多个同名 subagent 存在于不同优先级路径（如 `~／.claude／agents／` 与 `.claude／agents／`）时，Claude Code 如何解析冲突？嵌套项目结构中同名 subagent 的加载规则是什么？](https://www.mianshiya.com/question/2082027829993701377) · 简单
+- [ ] [v2.1.178 版本起，agent teams 的生命周期管理发生了什么关键变化？此前依赖的已废弃工具和字段有哪些？](https://www.mianshiya.com/question/2082027830744481793) · 简单
+- [ ] [为 AI Agent 设计 Skill 时，应遵循哪些工程化原则与实现要点？](https://www.mianshiya.com/question/2082027831113580545) · 简单
+- [ ] [为什么 CLAUDE.md 被描述为'context, not enforced configuration'？这在工程实践中意味着什么约束？](https://www.mianshiya.com/question/2082027831503650818) · 简单
+- [ ] [为什么 SessionStore.append() 方法需对同一 session 的并发调用进行序列化（如加锁或 CAS）？这与 foldSessionSummary 的纯函数特性之间存在何种协作关系？](https://www.mianshiya.com/question/2082027831851778050) · 简单
+- [ ] [为什么 Streaming Input Mode 被明确标记为 preferred 和 recommended？请结合其对 Tool Integration、Real-time Feedback 和 Context Persistence 的支持说明其与 Agent Loop 设计目标的对齐性。](https://www.mianshiya.com/question/2082027832208293890) · 简单
+- [ ] [为什么 checkpointing 明确不追踪 bash 命令引起的文件变更？该限制反映了 Claude Code 在工程交付中对哪一层抽象边界的坚守？](https://www.mianshiya.com/question/2082027833084903425) · 简单
+- [ ] [为什么 routine 的 prompt 必须'自包含且明确说明要做什么以及成功标准'？这一要求与 Plan Mode 和工程交付物有什么关系？](https://www.mianshiya.com/question/2082027833474973697) · 简单
+- [ ] [为什么编辑 CLAUDE.md 文件后，修改不会在当前 session 中立即生效？这与 prompt cache 的哪一层及其更新时机有关？](https://www.mianshiya.com/question/2082027833844072450) · 简单
+- [ ] [为何长时间使用 Claude Code 后响应会变慢？请从上下文窗口、工具调用历史与上下文治理角度分析原因及缓解手段。](https://www.mianshiya.com/question/2082027834213171202) · 简单
+- [ ] [为实现真正的自主闭环（unattended run），文档推荐哪三种将验证检查（verification check）集成到 Agent Loop 中的技术方案？它们在设置成本与人工干预需求上如何权衡？](https://www.mianshiya.com/question/2082027834561298434) · 简单
+- [ ] [动态工作流支持哪些可重复的质量保障模式，使其结果比单次代理执行更可信？](https://www.mianshiya.com/question/2082027835307884545) · 简单
+- [ ] [启用 agent teams 必须设置哪个环境变量？该变量未设置时，系统行为有何具体表现？](https://www.mianshiya.com/question/2082027835689566209) · 简单
+- [ ] [哪些类型的任务适合沉淀为 Skill？哪些更适合实现为 Tool、MCP、Memory 或 Harness？请结合 AI 应用架构中的职责边界与运行时约束说明判断依据。](https://www.mianshiya.com/question/2082027836050276354) · 简单
+- [ ] [在 Explore first, then plan, then code 最佳实践中，Plan Mode 的核心作用是什么？它适用于哪些典型场景，又应在何时跳过？](https://www.mianshiya.com/question/2082027836490678274) · 简单
+- [ ] [在 Agent SDK 中，Skills 的发现机制依赖于哪两个关键配置项？若显式设置 settingSources 却遗漏了它们，会导致什么后果？](https://www.mianshiya.com/question/2082027837212098561) · 简单
+- [ ] [在 Agent SDK 的 loop 执行过程中，turn 的精确定义是什么？为什么 max_turns 参数仅计数 tool-use turns而非所有 Claude 响应轮次？](https://www.mianshiya.com/question/2082027837568614401) · 简单
+- [ ] [在 Claude Code 的 prompt cache 分层结构中，CLAUDE.md 和 auto memory 属于哪一层？该层在什么情况下会变更？](https://www.mianshiya.com/question/2082027837920935938) · 简单
+- [ ] [在 Claude Code 的能力体系中，MCP（Model Context Protocol）承担什么角色？它与传统插件机制的本质区别是什么？](https://www.mianshiya.com/question/2082027838302617601) · 简单
+- [ ] [在 SDK 查询中启用 Skills 后，Claude 如何决定是否调用某个 Skill？其决策依据主要来自 `SKILL.md` 中的哪个字段？](https://www.mianshiya.com/question/2082027838692687874) · 简单
+- [ ] [在 agentic loop 中，models与tools分别承担什么角色？为什么文档强调 Claude Code 是围绕 Claude 模型构建的 agentic harness？](https://www.mianshiya.com/question/2082027839430885378) · 简单
+- [ ] [在 auto-format 场景中，PostToolUse hook 如何通过解析 tool_input 结构提取 file_path？该机制依赖于 Claude Code 的哪一层抽象（如 MCP 工具协议或内部 tool schema）？](https://www.mianshiya.com/question/2082027839879675905) · 简单
+- [ ] [在 monorepo 场景下，若项目根目录和 apps⧸web⧸.claude⧸skills⧸ 均定义了名为 deploy 的技能，Claude Code 如何区分并调用后者？](https://www.mianshiya.com/question/2082027840248774658) · 简单
+- [ ] [如何评估Skill设计对工具调用成功率的提升效果？具体可从工具选错率、参数非法率、无意义重复调用率、高风险工具误调用率等维度衡量。](https://www.mianshiya.com/question/2082027840630456322) · 简单
+- [ ] [如何评估和降低 Agent 中 Skill 的误召回率？误召回为何对 Agent 行为构成严重风险？](https://www.mianshiya.com/question/2082027841045692418) · 简单
+- [ ] [对比 command-type hook 与 prompt-based hook、agent-based hook 的决策模型差异，为什么文档强调前者适用于 'deterministic rules' 而后两者适用于 'judgment'？这反映了 Claude Code 权限控制架构中的何种分层设计原则？](https://www.mianshiya.com/question/2082027841775501314) · 简单
+- [ ] [将研究任务委托给子 Agent 在上下文窗口方面的关键收益是什么？请用 token 用量进行量化说明。](https://www.mianshiya.com/question/2082027842152988673) · 简单
+- [ ] [当 .mcp.json 中定义的 MCP 服务器显示为 Pending approval 时，用户需执行什么操作才能完成审批？该操作还会触发什么安全检查？](https://www.mianshiya.com/question/2082027842513698817) · 简单
+- [ ] [当 CLAUDE.md 文件过大时，官方推荐的两种缓解上下文开销与提升指令遵循率的策略是什么？](https://www.mianshiya.com/question/2082027842882797570) · 简单
+- [ ] [当会话上下文过长时，⁄context 和 ⁄compact 命令分别承担什么职责？这反映了 Claude Code 在哪一核心机制上的设计？](https://www.mianshiya.com/question/2082027843264479233) · 简单
+- [ ] [当用户创建自定义 subagent 时，frontmatter 中哪些字段是必需的或具有明确语义约束？`model` 字段在不同场景（如 Explore 子代理、用户级 subagent）下如何被继承或覆盖？](https://www.mianshiya.com/question/2082027844115922946) · 简单
+- [ ] [当系统中存在数十个Skill时，Agent如何确保准确选择并调用最合适的Skill？](https://www.mianshiya.com/question/2082027844543741954) · 简单
+- [ ] [当部署需满足高安全要求（如多租户环境）时，Claude Code 推荐采用哪种安全边界模式来保护敏感凭证？该模式如何实现'凭证不暴露给 agent'这一目标？](https://www.mianshiya.com/question/2082027844954783746) · 简单
+- [ ] [组织启用 Zero Data Retention 后，为何 ⧸web-setup 及其他云会话功能不可用？](https://www.mianshiya.com/question/2082027845319688193) · 简单
+- [ ] [若 _context 显示 CLAUDE.md 已加载，但 Claude 仍不遵守其中某条指令，根据官方文档（CLAUDE.md spec 及 Context Loading Lifecycle），最可能的根本原因是什么？哪些写作特征（如模糊动词、嵌套条件、未声明 scope 或 priority）会显著降低 CLAUDE.md 的指令遵循率？](https://www.mianshiya.com/question/2082027846024331265) · 简单
+- [ ] [项目级 subagent（位于 .claude／agents／）支持嵌套目录扫描，且 v2.1.178+ 采用'离工作目录最近者胜出'的同名冲突解决策略。这一设计对团队协作中的 subagent 版本演进有何实际意义？](https://www.mianshiya.com/question/2082027846406012929) · 简单

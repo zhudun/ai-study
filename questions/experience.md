@@ -1,0 +1,67 @@
+# AI 岗面经整理
+
+来源：[面试鸭 · AI 岗面经整理](https://www.mianshiya.com/bank/2065268439253049345)
+
+题库当前共 61 题，按题库顺序收录题干。题解留在面试鸭，这里只做练习清单。练完一题，把 `- [ ]` 改成 `- [x]`。
+
+- [ ] [大模型应用开发 - 春招（字节跳动）面经](https://www.mianshiya.com/question/2065268471888928770) · 简单 · 字节跳动、大模型应用开发、校招、Python/Java/Go（多语言栈）、面经
+- [ ] [字节LLM算法实习一面面经](https://www.mianshiya.com/question/2065268495037292546) · 简单 · 字节跳动、算法、实习、LLM、面经
+- [ ] [字节跳动搜推大模型实习一面面经](https://www.mianshiya.com/question/2065268527593480194) · 简单 · 字节跳动、算法、实习、大模型、面经
+- [ ] [字节LLM应用研发实习一面面经](https://www.mianshiya.com/question/2065268561068220417) · 简单 · 字节跳动、实习、大模型、面经、Python
+- [ ] [字节跳动LLM算法实习面经](https://www.mianshiya.com/question/2065268588113092609) · 简单 · 字节跳动、算法、实习、面经、Python
+- [ ] [字节LLM算法二面面经](https://www.mianshiya.com/question/2065268608635822081) · 简单 · 字节跳动、算法、社招、面经、Python
+- [ ] [字节大模型智能体算法一面面经](https://www.mianshiya.com/question/2065268649895190530) · 简单 · 字节跳动、算法、校招、大模型、面经
+- [ ] [字节智能体算法实习二面面经](https://www.mianshiya.com/question/2065268679028826114) · 简单 · 字节跳动、算法、实习、大模型、面经
+- [ ] [字节跳动番茄智能体应用开发二面 - RAG与多模态检索面经](https://www.mianshiya.com/question/2065268705683628034) · 简单 · 字节跳动、社招、AI工程、RAG、面经
+- [ ] [字节豆包LLM算法一面面经](https://www.mianshiya.com/question/2065268729914122242) · 简单 · 字节跳动、算法、实习、LLM、面经
+- [ ] [字节LLM应用算法岗三面面经](https://www.mianshiya.com/question/2065268765142081538) · 简单 · 字节跳动、算法、校招、LLM、面经
+- [ ] [字节大模型应用工程实习一面面经](https://www.mianshiya.com/question/2065268786382036994) · 简单 · 字节跳动、AI工程、实习、大模型、面经
+- [ ] [字节跳动智能体应用开发 - 社招（字节跳动）面经](https://www.mianshiya.com/question/2065268813011673090) · 简单 · 字节跳动、智能体（Agent）、社招、AI工程、面经
+- [ ] [大模型算法 - 实习（字节跳动）面经](https://www.mianshiya.com/question/2065268839783915521) · 简单 · 字节跳动、算法、实习、大模型、面经
+- [ ] [字节跳动AI基础设施开发实习面经](https://www.mianshiya.com/question/2065268860780601345) · 简单 · 字节跳动、C++/Python、实习、面经、AI基础设施
+- [ ] [大模型 - 校招（阿里淘天）面经](https://www.mianshiya.com/question/2065268894385364993) · 简单 · 阿里淘天、校招、RAG、大模型、面经
+- [ ] [大模型智能体 - 校招（阿里淘天）面经](https://www.mianshiya.com/question/2065268931500761089) · 简单 · 智能体、阿里巴巴、校招、大模型、面经
+- [ ] [大模型算法 - 校招（阿里巴巴）面经](https://www.mianshiya.com/question/2065268954049339393) · 简单 · 算法、阿里巴巴、校招、大模型、面经
+- [ ] [阿里巴巴AI基础设施开发暑期实习一面面经](https://www.mianshiya.com/question/2065268978397274114) · 简单 · 阿里巴巴、C++/Python、实习、面经、AI基础设施
+- [ ] [阿里巴巴技术岗暑期实习一面面经](https://www.mianshiya.com/question/2065269004414541825) · 简单 · 大模型应用、AI工程、阿里巴巴、实习、面经
+- [ ] [阿里巴巴AI应用研发暑期实习二面面经](https://www.mianshiya.com/question/2065269033367822338) · 简单 · Agent开发、AI工程、阿里巴巴、实习、面经
+- [ ] [阿里巴巴AI应用开发暑期实习一面面经](https://www.mianshiya.com/question/2065269061276721154) · 简单 · 阿里巴巴、实习、AI应用开发、面经、Python
+- [ ] [阿里巴巴Agent开发暑期实习一面](https://www.mianshiya.com/question/2065269081065447426) · 简单 · AI工程、阿里巴巴、实习、面经、Python
+- [ ] [大模型算法 - 校招（蚂蚁集团）面经](https://www.mianshiya.com/question/2065269109792235522) · 简单 · 校招、大模型、蚂蚁集团、面经、Python
+- [ ] [淘天智能体算法日常实习一面面经](https://www.mianshiya.com/question/2065269153253613569) · 简单 · 算法、智能体（Agent）、实习、淘天、面经
+- [ ] [AI编程工具开发 - 实习（淘天集团）面经](https://www.mianshiya.com/question/2065269179853889537) · 简单 · 淘天集团、AI、实习、大模型、面经
+- [ ] [淘天集团LLM应用研发一面面经](https://www.mianshiya.com/question/2065269210522640385) · 简单 · 淘天集团、AI工程、校招、LLM应用开发、面经
+- [ ] [淘天集团AI算法暑期实习一面面经](https://www.mianshiya.com/question/2065269248363651074) · 简单 · 算法、淘天集团、AI、实习、面经
+- [ ] [淘天集团Agent研发校招面经](https://www.mianshiya.com/question/2065269290554155009) · 简单 · Agent开发、淘天集团、校招、AI架构、面经
+- [ ] [淘天集团技术岗一面（Agent方向）面经](https://www.mianshiya.com/question/2065269362356445186) · 简单 · Agent开发、淘天集团、AI工程、校招、面经
+- [ ] [淘天智能体算法二面面经](https://www.mianshiya.com/question/2065269384040996865) · 简单 · 算法、社招、RAG、淘天、面经
+- [ ] [百度智能体一面 - 多Agent协同与智能体架构设计面经](https://www.mianshiya.com/question/2065269408493789185) · 简单 · AI工程、百度、校招、面经、Python
+- [ ] [百度LLM算法实习一面面经](https://www.mianshiya.com/question/2065269438160101378) · 简单 · 算法、百度、实习、面经、Python
+- [ ] [大模型与智能体 - 实习（百度）面经](https://www.mianshiya.com/question/2065269466190635009) · 简单 · 百度、实习、大模型、AI智能体、面经
+- [ ] [美团LLM应用算法一面面经](https://www.mianshiya.com/question/2065269510927081474) · 简单 · 算法、校招、美团、面经、LLM应用
+- [ ] [美团大模型智能体算法实习一面面经](https://www.mianshiya.com/question/2065269530745167874) · 简单 · 算法、实习、大模型、美团、面经
+- [ ] [美团LLM算法一面面经](https://www.mianshiya.com/question/2065269565868269569) · 简单 · 算法、校招、大模型、美团、面经
+- [ ] [美团LLM应用算法二面面经](https://www.mianshiya.com/question/2065269613339402242) · 简单 · 算法、社招、大模型、美团、面经
+- [ ] [美团智能体算法校招二面面经](https://www.mianshiya.com/question/2065269645467770881) · 简单 · 算法、校招、美团、面经、Python
+- [ ] [美团智能体应用开发实习面经](https://www.mianshiya.com/question/2065269663838822401) · 简单 · AI工程、实习、美团、面经、Python
+- [ ] [腾讯大模型实习一面面经](https://www.mianshiya.com/question/2065269690854334465) · 简单 · 腾讯、实习、大模型、面经、Python
+- [ ] [快手AI基础架构校招一面面经](https://www.mianshiya.com/question/2065269715525230594) · 简单 · 校招、Python/C++、快手、面经、AI基础设施
+- [ ] [LLM推理 - 一面（快手）面经](https://www.mianshiya.com/question/2065269763814252546) · 简单 · 社招、大模型推理、快手、LLM、面经
+- [ ] [大模型应用开发 - 二面（快手）面经](https://www.mianshiya.com/question/2065269795489636354) · 简单 · 大模型应用、社招、快手、面经、Python
+- [ ] [京东LLM应用研发实习一面面经](https://www.mianshiya.com/question/2065269818382147585) · 简单 · 京东、实习、LLM、面经、Python
+- [ ] [京东智能体研发暑期实习二面面经](https://www.mianshiya.com/question/2065269840733593602) · 简单 · 京东、实习、面经、Python
+- [ ] [京东Agent应用研发一面面经](https://www.mianshiya.com/question/2065269865475792897) · 简单 · AI工程、校招、京东、面经、Python
+- [ ] [大模型应用岗 - 网易（一面、二面）面经](https://www.mianshiya.com/question/2065269894890446849) · 简单 · 大模型应用、校招、大模型、网易、面经
+- [ ] [网易互娱智能体工程二面 - Java后端（大模型应用方向）面经](https://www.mianshiya.com/question/2065269929489260545) · 简单 · Java、社招、网易互娱、面经
+- [ ] [小红书LLM算法春招二面面经](https://www.mianshiya.com/question/2065269959369482241) · 简单 · 算法、校招、小红书、LLM、面经
+- [ ] [小红书大模型全栈开发暑期实习二面](https://www.mianshiya.com/question/2065269978294181890) · 简单 · Go、实习、全栈、小红书、面经
+- [ ] [小红书技术岗实习一面面经](https://www.mianshiya.com/question/2065270007117438978) · 简单 · AI工程、RAG、实习、小红书、面经
+- [ ] [拼多多智能体算法二面面经](https://www.mianshiya.com/question/2065270047764439041) · 简单 · 算法、拼多多、校招、大模型、面经
+- [ ] [米哈游LLM算法实习一面面经](https://www.mianshiya.com/question/2065270068119396353) · 简单 · 算法、实习、LLM、米哈游、面经
+- [ ] [LLM算法实习 - 携程一面面经](https://www.mianshiya.com/question/2065270116429389825) · 简单 · 算法、实习、LLM、携程、面经
+- [ ] [蔚来AI Infra实习面经](https://www.mianshiya.com/question/2065270139288346625) · 简单 · C++、实习、蔚来、面经、AI基础设施
+- [ ] [得物AI应用研发实习面经](https://www.mianshiya.com/question/2065270162621259777) · 简单 · AI工程、前端、实习、得物、面经
+- [ ] [大模型应用工程 - 一面（联想）面经](https://www.mianshiya.com/question/2065270184221925377) · 简单 · 联想、Java、校招、大模型、面经、Python
+- [ ] [OPPO AI基础架构实习二面面经](https://www.mianshiya.com/question/2065270210373410818) · 简单 · CUDA、AI基础架构、OPPO、实习、面经
+- [ ] [Shopee AI应用开发一面面经](https://www.mianshiya.com/question/2065270240094248962) · 简单 · 社招、Python/Java/Go（多语言）、Shopee、AI应用开发、面经
+- [ ] [医疗全栈研发 - 校招（某医疗公司）面经](https://www.mianshiya.com/question/2065270279625564162) · 简单 · 校招、某医疗公司、全栈、面经、Python

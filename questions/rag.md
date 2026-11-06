@@ -1,0 +1,64 @@
+# RAG 检索增强生成面试题
+
+来源：[面试鸭 · RAG 检索增强生成面试题](https://www.mianshiya.com/bank/1991427961462456322)
+
+题库当前共 58 题，按题库顺序收录题干。题解留在面试鸭，这里只做练习清单。练完一题，把 `- [ ]` 改成 `- [x]`。
+
+- [ ] [什么是 RAG 检索增强生成？它解决了大模型的哪些问题？](https://www.mianshiya.com/question/1991796737861263362) · 简单 · RAG、RAG 基础
+- [ ] [RAG 的完整工作流程是怎样的？核心步骤有哪些？](https://www.mianshiya.com/question/1991796738154864642) · 简单 · RAG、RAG 流程
+- [ ] [RAG 中的 Embedding 向量化是什么？如何工作的？](https://www.mianshiya.com/question/1991796738448465922) · 简单 · RAG、Embedding
+- [ ] [RAG 为什么需要向量数据库？它和传统数据库有什么区别？](https://www.mianshiya.com/question/1991796738742067202) · 简单 · RAG、向量数据库
+- [ ] [RAG 和模型微调 Fine-tuning 有什么区别？如何选择？](https://www.mianshiya.com/question/1991796739195052033) · 简单 · RAG、Fine-tuning
+- [ ] [RAG 中如何计算文本相似度？常见算法有哪些？](https://www.mianshiya.com/question/1991796739656425473) · 简单 · RAG、相似度计算
+- [ ] [RAG 系统中为什么要进行文档切割？有哪些切割策略？](https://www.mianshiya.com/question/1991796740113604609) · 简单 · RAG、文档切割
+- [ ] [RAG 检索中的 Top-K 是什么意思？K 值如何确定？](https://www.mianshiya.com/question/1991796740365262849) · 简单 · RAG、Top-K
+- [ ] [如何为 RAG 系统选择合适的 Embedding 模型？](https://www.mianshiya.com/question/1991796740650475521) · 中等 · RAG、Embedding 模型选择
+- [ ] [RAG 系统如何处理 PDF、Word、Markdown 等不同格式文档？](https://www.mianshiya.com/question/1991796740939882498) · 中等 · RAG、文档处理
+- [ ] [RAG 中文档切割的 chunk_size 和 overlap 应该如何设置？](https://www.mianshiya.com/question/1991796741313175553) · 中等 · RAG、文档切割参数
+- [ ] [如何构建和使用向量索引？HNSW 和 IVF 有什么区别？](https://www.mianshiya.com/question/1991796741598388226) · 中等 · RAG、向量索引
+- [ ] [什么是 RAG 混合检索？如何实现向量检索和关键词检索结合？](https://www.mianshiya.com/question/1991796741950709762) · 中等 · RAG、混合检索
+- [ ] [RAG 检索时相似度阈值如何设置？设置不当有什么影响？](https://www.mianshiya.com/question/1991796742248505346) · 中等 · RAG、相似度阈值
+- [ ] [RAG 系统如何利用元数据过滤提升检索精度？](https://www.mianshiya.com/question/1991796742504357889) · 中等 · RAG、元数据过滤
+- [ ] [RAG 中如何设计 Prompt 来有效利用检索到的文档？](https://www.mianshiya.com/question/1991796742797959169) · 中等 · RAG、Prompt 设计
+- [ ] [如何处理 RAG 检索不到相关文档的情况？](https://www.mianshiya.com/question/1991796743116726273) · 中等 · RAG、检索失败处理
+- [ ] [RAG 系统如何标注信息来源和提供引用？](https://www.mianshiya.com/question/1991796743498407937) · 中等 · RAG、引用标注
+- [ ] [RAG 中如何实现向量数据库的增量更新？](https://www.mianshiya.com/question/1991796743821369345) · 中等 · RAG、增量更新
+- [ ] [如何为 RAG 项目选择向量数据库？Milvus、Pinecone、Chroma 怎么选？](https://www.mianshiya.com/question/1991796744282742785) · 中等 · RAG、向量数据库选型
+- [ ] [RAG 中的查询重写 Query Rewriting 是什么？如何优化检索效果？](https://www.mianshiya.com/question/1991796744526012418) · 困难 · RAG、查询重写
+- [ ] [RAG 为什么需要重排序 Reranking？如何实现？](https://www.mianshiya.com/question/1991796744790253570) · 困难 · RAG、重排序
+- [ ] [如何评估 RAG 系统的效果？检索和生成分别看哪些指标？](https://www.mianshiya.com/question/1991796745104826370) · 困难 · RAG、效果评估
+- [ ] [如何减少 RAG 系统的幻觉问题？有哪些实用方法？](https://www.mianshiya.com/question/1991796745444564994) · 困难 · RAG、幻觉问题
+- [ ] [RAG 系统在生产环境中如何优化性能和降低成本？](https://www.mianshiya.com/question/1991796745729777665) · 困难 · RAG、性能优化
+- [ ] [什么是向量数据库？在基于大模型的应用开发中，向量数据库主要解决什么问题？](https://www.mianshiya.com/question/1906191836891095042) · 中等 · 会员 · 大模型、编程导航
+- [ ] [设计智能客服系统时，如何通过知识库构建解决长尾问题？请描述具体实现步骤](https://www.mianshiya.com/question/1906312178389262337) · 困难 · 会员 · 大模型
+- [ ] [当发现RAG系统召回结果与用户query意图不匹配时，有哪些可能的改进方向？](https://www.mianshiya.com/question/1906314515354787842) · 中等 · 会员 · 大模型
+- [ ] [使用LangChain实现RAG系统时，如何处理PDF文档中的表格数据召回问题？](https://www.mianshiya.com/question/1906316700050853889) · 中等 · 会员 · 大模型
+- [ ] [什么是 RAG？RAG 的主要流程是什么？](https://www.mianshiya.com/question/1909864020422012930) · 简单 · 会员 · AI、大模型、RAG、编程导航
+- [ ] [什么是 RAG 中的 Rerank？具体需要怎么做？](https://www.mianshiya.com/question/1909895340787347458) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么混合检索？在基于大模型的应用开发中，混合检索主要解决什么问题？](https://www.mianshiya.com/question/1910235326833721345) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [RAG 的完整流程是怎么样的？](https://www.mianshiya.com/question/1910262700195414018) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 应用中为了优化检索精度，其中的数据清洗和预处理怎么做？](https://www.mianshiya.com/question/1910276173482655746) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么查询扩展？为什么在 RAG 应用中需要查询扩展？](https://www.mianshiya.com/question/1910534938416754689) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么自查询？为什么在 RAG 中需要自查询？](https://www.mianshiya.com/question/1910542542891614209) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [什么提示压缩？为什么在 RAG 中需要提示压缩？](https://www.mianshiya.com/question/1910609088653524993) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [如何进行 RAG 调优后的效果评估？请给出真实应用场景中采用的效果评估标准与方法](https://www.mianshiya.com/question/1912765231981187074) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是 RAG 中的分块？为什么需要分块？](https://www.mianshiya.com/question/1912781951991074817) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，常见的分块策略有哪些？分别有什么区别？](https://www.mianshiya.com/question/1912795349320720385) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中的 Embedding 嵌入是什么？](https://www.mianshiya.com/question/1912805533338296322) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，你知道有哪些 Embedding Model 嵌入模型？](https://www.mianshiya.com/question/1913119866891001857) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，你如何选择 Embedding Model 嵌入模型，需要考虑哪些因素？](https://www.mianshiya.com/question/1913129432949186562) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，索引流程中的文档解析你们怎么做的？](https://www.mianshiya.com/question/1913138628935540737) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [你都了解哪些向量数据库？如何选型？](https://www.mianshiya.com/question/1913169074887905281) · 中等 · 会员 · AI、大模型
+- [ ] [向量数据库原理是什么？ 请简述下它的原理](https://www.mianshiya.com/question/1914209471323762689) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中的 HNSW、LSH、PQ 分别是什么意思？](https://www.mianshiya.com/question/1914214015294304258) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中的 ANN 是什么？为什么需要用它？](https://www.mianshiya.com/question/1914228914488909825) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库的工作流程有哪些？请简述下](https://www.mianshiya.com/question/1914237034071855106) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中，常见的向量搜索方法：余弦相似度、欧几里得距离和曼哈顿距离分别是什么？有什么区别？](https://www.mianshiya.com/question/1914248329122074626) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [在 RAG 应用的过程中，关于提示工程的设计有什么心得和技巧吗？](https://www.mianshiya.com/question/1914601776862990337) · 中等 · 会员 · AI、大模型、RAG、提示工程
+- [ ] [什么是 Advanced RAG？](https://www.mianshiya.com/question/1914614341832523778) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是 Modular RAG？](https://www.mianshiya.com/question/1914621474818531330) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [RAG 的文档处理流程是怎样的？](https://www.mianshiya.com/question/1929742302566273026) · 中等 · 会员 · 编程导航
+- [ ] [什么是查询重写？它有什么作用？如何基于 Spring AI 实现查询重写？](https://www.mianshiya.com/question/1929742304764088322) · 中等 · 会员 · 编程导航
+- [ ] [什么是 Spring AI 提出的模块化 RAG 架构？预检索、检索和后检索阶段各自负责什么？](https://www.mianshiya.com/question/1929742305821052929) · 中等 · 会员 · 编程导航
+- [ ] [如何优化 RAG 的检索效果？](https://www.mianshiya.com/question/1929742545445736450) · 困难 · 会员 · 通用、编程导航
+- [ ] [你有多个知识库，做 RAG 的时候，怎么保证查询效率和准确性兼容，并尽可能减少幻觉？](https://www.mianshiya.com/question/1935980352104529921) · 中等 · 会员 · AI、大模型、RAG

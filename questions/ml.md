@@ -1,0 +1,78 @@
+# 机器学习面试题
+
+来源：[面试鸭 · 机器学习面试题](https://www.mianshiya.com/bank/1821834636175642625)
+
+题库当前共 72 题，按题库顺序收录题干。题解留在面试鸭，这里只做练习清单。练完一题，把 `- [ ]` 改成 `- [x]`。
+
+- [ ] [说说你了解的机器学习是什么？](https://www.mianshiya.com/question/1821834636393746433) · 简单 · 机器学习、人工智能、基础理论
+- [ ] [监督学习、半监督学习和无监督学习分别是什么，它们的区别在哪？](https://www.mianshiya.com/question/1821834636670570497) · 简单 · 机器学习、人工智能、基础理论
+- [ ] [机器学习有哪些常见的算法？](https://www.mianshiya.com/question/1821834636993531906) · 简单 · 机器学习、人工智能、基础理论
+- [ ] [什么是损失函数？有什么作用？](https://www.mianshiya.com/question/1821834637232607233) · 简单 · 机器学习、损失函数
+- [ ] [什么是梯度下降？它的工作原理是什么？有哪些变体？](https://www.mianshiya.com/question/1821834637496848385) · 简单 · 机器学习、梯度下降
+- [ ] [分别解释高斯牛顿法和拟牛顿法。](https://www.mianshiya.com/question/1821834637828198402) · 困难 · 机器学习、高斯牛顿法、拟牛顿法
+- [ ] [请解释过拟合和欠拟合，并讨论如何应对过拟合问题。](https://www.mianshiya.com/question/1821834638096633857) · 简单 · 机器学习、过拟合、欠拟合
+- [ ] [什么是正则化？正则化有哪些作用？说说机器学习中常见的正则化方法。](https://www.mianshiya.com/question/1821834638365069314) · 简单 · 机器学习、正则化
+- [ ] [线性回归和逻辑回归有什么区别？](https://www.mianshiya.com/question/1821834638633504769) · 简单 · 机器学习、分类与回归、线性回归、逻辑回归
+- [ ] [什么是线性回归，请解释其假设和工作原理。](https://www.mianshiya.com/question/1821834638914523138) · 简单 · 机器学习、线性回归
+- [ ] [进行线性回归前，为什么需要对特征进行离散化处理？](https://www.mianshiya.com/question/1821834639191347202) · 中等 · 机器学习、线性回归
+- [ ] [分别解释 Ridge 回归和 Lasson 回归。](https://www.mianshiya.com/question/1821834639459782658) · 中等 · Ridge 回归和 Lasson 回归
+- [ ] [逻辑回归分别是怎样处理二分类问题和多分类问题的？](https://www.mianshiya.com/question/1821834639736606721) · 中等 · 机器学习、分类、逻辑回归
+- [ ] [在逻辑回归中是否需要使用交叉验证？为什么？](https://www.mianshiya.com/question/1821834640038596609) · 中等 · 机器学习、逻辑回归、交叉验证
+- [ ] [为什么逻辑回归采用交叉熵损失函数，而不是平方损失函数？](https://www.mianshiya.com/question/1821834640302837762) · 中等 · 机器学习、逻辑回归、损失函数
+- [ ] [解释 Sigmoid 函数，以及它在逻辑回归中的作用。](https://www.mianshiya.com/question/1821834640583856129) · 简单 · 机器学习、逻辑回归、Sigmoid 函数
+- [ ] [简单介绍一下 KNN 算法过程。](https://www.mianshiya.com/question/1821834640831320065) · 简单 · 机器学习、KNN 算法
+- [ ] [说说 KNN 算法中多数投票的规则。](https://www.mianshiya.com/question/1821834641087172609) · 简单 · 机器学习、KNN 算法
+- [ ] [KNN 算法中 K 的取值是如何确定的？](https://www.mianshiya.com/question/1821834641389162498) · 中等 · 机器学习、KNN 算法
+- [ ] [KNN 算法分别有哪些优缺点？](https://www.mianshiya.com/question/1821834641670180865) · 简单 · 机器学习、KNN 算法
+- [ ] [KNN 算法有一个显著的缺点，就是计算量太大，可以采用什么方式应对这个问题？](https://www.mianshiya.com/question/1821834641942810626) · 中等 · 机器学习、KNN 算法
+- [ ] [KNN 算法是如何应对维度灾难的？](https://www.mianshiya.com/question/1821834642244800514) · 困难 · 机器学习、KNN 算法
+- [ ] [KNN 算法和 K-means 算法有什么区别？](https://www.mianshiya.com/question/1821834642555179009) · 简单 · 机器学习、K-means 算法、KNN 算法
+- [ ] [有哪些常见的方法度量点到中心的距离？](https://www.mianshiya.com/question/1821834642815225858) · 简单 · 机器学习、距离度量
+- [ ] [K-means 聚类中每个聚类中心的初始点如何选择？](https://www.mianshiya.com/question/1821834643079467009) · 中等 · 机器学习、K-means 算法
+- [ ] [如何处理 K-means 中的空聚类？](https://www.mianshiya.com/question/1821834643331125250) · 中等 · 机器学习、K-means 算法
+- [ ] [K-means 是否会陷入一直寻找聚类中心的循环中？如果是，如何应对？](https://www.mianshiya.com/question/1821834643612143617) · 中等 · 机器学习、K-means 算法
+- [ ] [解释高斯混合模型。](https://www.mianshiya.com/question/1821834643876384770) · 中等 · 机器学习、聚类、高斯混合模型
+- [ ] [说说 EM 算法。](https://www.mianshiya.com/question/1821834644157403138) · 困难 · 机器学习、聚类、最大期望、数学
+- [ ] [请描述支持向量机（svm）的基本思想和应用场景。](https://www.mianshiya.com/question/1821834644434227202) · 中等 · 机器学习、svm
+- [ ] [svm 可以处理多分类吗？](https://www.mianshiya.com/question/1821834644706856961) · 中等 · 机器学习、svm、分类
+- [ ] [软间隔和硬间隔有什么区别？](https://www.mianshiya.com/question/1821834645017235458) · 中等 · 机器学习、svm
+- [ ] [svm 与感知机有什么区别？](https://www.mianshiya.com/question/1821834645315031042) · 中等 · 机器学习、svm、感知机
+- [ ] [简单说说核函数的原理。](https://www.mianshiya.com/question/1821834645583466498) · 中等 · 机器学习、svm、核函数
+- [ ] [svm 有哪些核函数？分别应用于哪些场景中？](https://www.mianshiya.com/question/1821834645872873474) · 中等 · 机器学习、svm、核函数
+- [ ] [svm 在应用高斯核时需要对特征进行归一化吗？](https://www.mianshiya.com/question/1821834646145503234) · 中等 · 机器学习、svm、核函数
+- [ ] [简单描述朴素贝叶斯的算法流程。](https://www.mianshiya.com/question/1821834646426521602) · 简单 · 机器学习、朴素贝叶斯、数学
+- [ ] [朴素贝叶斯常见的分类模型是什么？请分别说明。](https://www.mianshiya.com/question/1821834646678179841) · 中等 · 机器学习、朴素贝叶斯、分类
+- [ ] [朴素贝叶斯中的零概率问题是什么？如何应对？](https://www.mianshiya.com/question/1821834646992752641) · 中等 · 机器学习、朴素贝叶斯
+- [ ] [为什么朴素贝叶斯是高偏差低方差？](https://www.mianshiya.com/question/1821834647303131138) · 中等 · 机器学习、朴素贝叶斯
+- [ ] [朴素贝叶斯如何应对高度相关的特征？](https://www.mianshiya.com/question/1821834647575760897) · 困难 · 机器学习、朴素贝叶斯
+- [ ] [说说构造决策树的步骤。](https://www.mianshiya.com/question/1821834647869362177) · 简单 · 机器学习、决策树
+- [ ] [决策树是否可以处理非数值型特征？](https://www.mianshiya.com/question/1821834648129409026) · 简单 · 机器学习、决策树
+- [ ] [决策树算法是如何应对欠拟合和过拟合的？](https://www.mianshiya.com/question/1821834648381067266) · 中等 · 机器学习、决策树、欠拟合、过拟合
+- [ ] [分别说说 ID3、C4.5 和 CART 算法。](https://www.mianshiya.com/question/1821834648649502721) · 困难 · 机器学习、决策树、ID3 算法、C4.5 算法、CART 算法
+- [ ] [既然 ID3 算法中已经选择了信息增益，为何 C4.5 算法中选择使用信息增益率？](https://www.mianshiya.com/question/1821834648922132481) · 中等 · 机器学习、决策树、ID3 算法、C4.5 算法
+- [ ] [分别描述 C4.5 算法中预剪枝和后剪枝的策略，并说说和 CART 算法中的剪枝策略有何不同？](https://www.mianshiya.com/question/1821834649203150850) · 困难 · 机器学习、决策树、C4.5 算法、CART 算法、剪枝
+- [ ] [为什么 CART 算法特征选择方式是基尼系数，而不是信息熵？](https://www.mianshiya.com/question/1821834649454809090) · 中等 · 机器学习、决策树、CART 算法
+- [ ] [请简要描述随机森林算法的过程。](https://www.mianshiya.com/question/1821834649727438849) · 简单 · 机器学习、随机森林、集成学习、决策树
+- [ ] [随机森林算法为什么不使用全样本训练 m 棵决策树？](https://www.mianshiya.com/question/1821834649983291393) · 中等 · 机器学习、随机森林、集成学习、决策树
+- [ ] [如何理解随机森林的随机性？](https://www.mianshiya.com/question/1821834650281086977) · 中等 · 机器学习、随机森林
+- [ ] [随机森林算法是否容易过拟合？](https://www.mianshiya.com/question/1821834650562105345) · 中等 · 机器学习、随机森林、过拟合
+- [ ] [解释 Boosting 算法和 Bagging 算法的区别。](https://www.mianshiya.com/question/1821834650834735106) · 中等 · 机器学习、Boosting 算法、Bagging 算法
+- [ ] [简述 Adaboost 算法的原理。](https://www.mianshiya.com/question/1821834651107364865) · 中等 · 机器学习、Adaboost 算法
+- [ ] [如何使用 Adaboost 算法进行特征选择？](https://www.mianshiya.com/question/1821834651367411713) · 困难 · 机器学习、Adaboost 算法
+- [ ] [Adaboost 算法对噪声敏感吗？](https://www.mianshiya.com/question/1821834651702956033) · 中等 · 机器学习、Adaboost 算法
+- [ ] [Adaboost 算法和随机森林算法有什么区别？](https://www.mianshiya.com/question/1821834651967197185) · 中等 · 机器学习、Adaboost 算法、随机森林算法
+- [ ] [什么是 Gradient Boosting？](https://www.mianshiya.com/question/1821834652227244033) · 中等 · 机器学习、Gradient Boosting
+- [ ] [Gradient Boosting 为什么不使用决策树桩？](https://www.mianshiya.com/question/1821834652504068098) · 困难 · 机器学习、Gradient Boosting、决策树
+- [ ] [Gradient Boosting 与 XGBoost 有什么区别？](https://www.mianshiya.com/question/1821834652789280770) · 中等 · 机器学习、Gradient Boosting、XGBoost
+- [ ] [解释 GBDT(Gradient Boosted Decision Trees) 原理。](https://www.mianshiya.com/question/1821834653066104833) · 中等 · 机器学习、GBDT
+- [ ] [GBDT 适合使用高维稀疏特征吗？](https://www.mianshiya.com/question/1821834653347123201) · 中等 · 机器学习、GBDT
+- [ ] [GBDT 可以用于分类任务吗？](https://www.mianshiya.com/question/1821834653682667522) · 简单 · 机器学习、GBDT、分类
+- [ ] [解释什么是降维，以及为什么要降维。](https://www.mianshiya.com/question/1821834653946908674) · 简单 · 机器学习、降维、奇异值
+- [ ] [降维有哪些优缺点？](https://www.mianshiya.com/question/1821834654223732738) · 简单 · 机器学习、降维
+- [ ] [说说什么是奇异值分解？](https://www.mianshiya.com/question/1821834654550888450) · 中等 · 机器学习、奇异值
+- [ ] [奇异值分解在降维中有什么作用？](https://www.mianshiya.com/question/1821834654794158082) · 中等 · 机器学习、降维、奇异值
+- [ ] [特征值和奇异值的区别是什么？](https://www.mianshiya.com/question/1821834655083565057) · 困难 · 机器学习、奇异值
+- [ ] [解释 PCA 算法的原理和步骤。](https://www.mianshiya.com/question/1821834655364583426) · 中等 · 机器学习、PCA、降维
+- [ ] [如何确定 PCA 降维之后的维度？](https://www.mianshiya.com/question/1821834655683350529) · 中等 · 机器学习、PCA、降维
+- [ ] [介绍一下 LDA 算法。](https://www.mianshiya.com/question/1821834656002117633) · 中等 · 机器学习、LDA、降维
+- [ ] [PCA 和 LDA 有哪些区别？](https://www.mianshiya.com/question/1821834656312496130) · 中等 · 机器学习、LDA、PCA

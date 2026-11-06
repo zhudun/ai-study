@@ -1,0 +1,376 @@
+# 最全 AI 大模型面试题
+
+来源：[面试鸭 · 最全 AI 大模型面试题](https://www.mianshiya.com/bank/1906189461556076546)
+
+题库当前共 370 题，按题库顺序收录题干。题解留在面试鸭，这里只做练习清单。练完一题，把 `- [ ]` 改成 `- [x]`。
+
+- [ ] [最近 OpenClaw 这么火，你知道它的原理吗？](https://www.mianshiya.com/question/2031643525468151809) · 简单 · AI、OpenClaw、大模型应用开发、Agent 开发、AI 应用开发
+- [ ] [什么是 RAG？RAG 的主要流程是什么？](https://www.mianshiya.com/question/1909864020422012930) · 简单 · 会员 · AI、大模型、RAG、编程导航
+- [ ] [什么是 RAG 中的 Rerank？具体需要怎么做？](https://www.mianshiya.com/question/1909895340787347458) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [A2A 协议有哪五大设计原则？](https://www.mianshiya.com/question/1916425043148128258) · 中等 · 会员 · 大模型、AI、A2A、系统架构
+- [ ] [什么混合检索？在基于大模型的应用开发中，混合检索主要解决什么问题？](https://www.mianshiya.com/question/1910235326833721345) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是 Google ADK？](https://www.mianshiya.com/question/1924281357186498562) · 简单 · 会员 · AI、大模型
+- [ ] [RAG 的完整流程是怎么样的？](https://www.mianshiya.com/question/1910262700195414018) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [A2A 协议的工作原理是怎样的？](https://www.mianshiya.com/question/1916425043395592193) · 简单 · 会员 · 大模型、AI、A2A、技术栈
+- [ ] [在 RAG 应用中为了优化检索精度，其中的数据清洗和预处理怎么做？](https://www.mianshiya.com/question/1910276173482655746) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [A2A 协议的工作流程是怎样的？](https://www.mianshiya.com/question/1916425043643056130) · 简单 · 会员 · 大模型、AI、A2A
+- [ ] [什么查询扩展？为什么在 RAG 应用中需要查询扩展？](https://www.mianshiya.com/question/1910534938416754689) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [A2A 协议 与 MCP 协议的关系是怎样的？](https://www.mianshiya.com/question/1916432330246103042) · 中等 · 会员 · 大模型、AI、A2A、MCP
+- [ ] [什么自查询？为什么在 RAG 中需要自查询？](https://www.mianshiya.com/question/1910542542891614209) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [什么提示压缩？为什么在 RAG 中需要提示压缩？](https://www.mianshiya.com/question/1910609088653524993) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [如何进行 RAG 调优后的效果评估？请给出真实应用场景中采用的效果评估标准与方法](https://www.mianshiya.com/question/1912765231981187074) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是 RAG 中的分块？为什么需要分块？](https://www.mianshiya.com/question/1912781951991074817) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，常见的分块策略有哪些？分别有什么区别？](https://www.mianshiya.com/question/1912795349320720385) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中的 Embedding 嵌入是什么？](https://www.mianshiya.com/question/1912805533338296322) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，你知道有哪些 Embedding Model 嵌入模型？](https://www.mianshiya.com/question/1913119866891001857) · 简单 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，你如何选择 Embedding Model 嵌入模型，需要考虑哪些因素？](https://www.mianshiya.com/question/1913129432949186562) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 中，索引流程中的文档解析你们怎么做的？](https://www.mianshiya.com/question/1913138628935540737) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [在 RAG 应用的过程中，关于提示工程的设计有什么心得和技巧吗？](https://www.mianshiya.com/question/1914601776862990337) · 中等 · 会员 · AI、大模型、RAG、提示工程
+- [ ] [什么是 Advanced RAG？](https://www.mianshiya.com/question/1914614341832523778) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是 Modular RAG？](https://www.mianshiya.com/question/1914621474818531330) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [什么是护栏技术？](https://www.mianshiya.com/question/1915309618303901698) · 简单 · 会员 · AI、大模型
+- [ ] [什么是 GPTCache？](https://www.mianshiya.com/question/1915316449118035969) · 简单 · 会员 · AI、大模型
+- [ ] [大模型的结构化输出指的是什么？](https://www.mianshiya.com/question/1916425465556885506) · 简单 · 会员 · AI、大模型
+- [ ] [什么是 GPT Structured Outputs？](https://www.mianshiya.com/question/1915324657713266690) · 简单 · 会员 · AI、大模型
+- [ ] [什么是 LangChain？](https://www.mianshiya.com/question/1915335173711634433) · 简单 · 会员 · AI、大模型、LangChain
+- [ ] [LangChain 的核心组件有哪些？](https://www.mianshiya.com/question/1916425041235525634) · 中等 · 会员 · 大模型、AI、Agent、LangChain
+- [ ] [LangChain核心架构是什么样的](https://www.mianshiya.com/question/1916425041541709826) · 中等 · 会员 · 大模型、AI、Agent、LangChain
+- [ ] [什么是 LangChain Agent](https://www.mianshiya.com/question/1916425041839505410) · 简单 · 会员 · 大模型、AI、Agent、LangChain
+- [ ] [什么是 LangChain model](https://www.mianshiya.com/question/1916425042099552258) · 简单 · 会员 · 大模型、AI、Agent、LangChain
+- [ ] [LlamaIndex 如何与 LangChain 结合？](https://www.mianshiya.com/question/1916425042367987714) · 困难 · 会员 · 大模型、AI、Agent、LangChain、LlamaIndex
+- [ ] [什么是 LangGraph ？](https://www.mianshiya.com/question/1915349256003428353) · 简单 · 会员 · AI、大模型、LangChain、LangGraph
+- [ ] [LangGraph 编排的原理是什么？](https://www.mianshiya.com/question/1915664467716059138) · 简单 · 会员 · AI、大模型、LangChain、LangGraph
+- [ ] [​LangChain 和 LangGraph 有什么区别？](https://www.mianshiya.com/question/1915671751515152385) · 简单 · 会员 · AI、大模型、LangChain、LangGraph
+- [ ] [什么是 Manus？说说你对它的了解](https://www.mianshiya.com/question/1915679443658973185) · 简单 · 会员 · AI、大模型、Manus
+- [ ] [Computer Use 是什么？说说它的原理](https://www.mianshiya.com/question/1915691942156283906) · 中等 · 会员 · AI、大模型
+- [ ] [ReAct 是什么？说说它的原理](https://www.mianshiya.com/question/1915710074900160513) · 简单 · 会员 · AI、大模型
+- [ ] [在大模型应用中，通常如何实现长短期记忆机制？](https://www.mianshiya.com/question/1916410560665989122) · 中等 · 会员 · AI、大模型
+- [ ] [Copilot 模式和 Agent 模式的区别是什么？](https://www.mianshiya.com/question/1916417383498489857) · 中等 · 会员 · AI、大模型
+- [ ] [什么是向量数据库？在基于大模型的应用开发中，向量数据库主要解决什么问题？](https://www.mianshiya.com/question/1906191836891095042) · 中等 · 会员 · 大模型、编程导航
+- [ ] [你都了解哪些向量数据库？如何选型？](https://www.mianshiya.com/question/1913169074887905281) · 中等 · 会员 · AI、大模型
+- [ ] [向量数据库原理是什么？ 请简述下它的原理](https://www.mianshiya.com/question/1914209471323762689) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中的 HNSW、LSH、PQ 分别是什么意思？](https://www.mianshiya.com/question/1914214015294304258) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中的 ANN 是什么？为什么需要用它？](https://www.mianshiya.com/question/1914228914488909825) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库中，常见的向量搜索方法：余弦相似度、欧几里得距离和曼哈顿距离分别是什么？有什么区别？](https://www.mianshiya.com/question/1914248329122074626) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [向量数据库的工作流程有哪些？请简述下](https://www.mianshiya.com/question/1914237034071855106) · 中等 · 会员 · AI、大模型、RAG、向量数据库
+- [ ] [什么是 MCP 协议，它在 AI 大模型系统中的作用是什么？](https://www.mianshiya.com/question/1914241824571125761) · 简单 · 会员 · 大模型、AI、MCP、协议原理、系统设计、场景题
+- [ ] [MCP 架构包含哪些核心组件？](https://www.mianshiya.com/question/1914241825271574530) · 简单 · 会员 · 大模型、AI、MCP、系统架构
+- [ ] [MCP 协议支持哪些模式？](https://www.mianshiya.com/question/1914241825540009985) · 简单 · 会员 · 大模型、AI、MCP、协议设计
+- [ ] [MCP 与 Function Calling 的区别是什么？](https://www.mianshiya.com/question/1914241825791668226) · 简单 · 会员 · 大模型、AI、MCP、Function Calling
+- [ ] [MCP 的工作流程是什么？](https://www.mianshiya.com/question/1914241826055909377) · 简单 · 会员 · 大模型、AI、MCP、协议原理
+- [ ] [在 Spring AI 框架中如何集成 MCP？](https://www.mianshiya.com/question/1914241826294984705) · 简单 · 会员 · 大模型、AI、MCP、Spring、Spring AI、Java
+- [ ] [MCP 协议安全性设计包含哪些层面？](https://www.mianshiya.com/question/1914241826546642946) · 简单 · 会员 · 大模型、AI、MCP、安全性
+- [ ] [如何将已有的应用转换成 MCP 服务？](https://www.mianshiya.com/question/1914241826789912577) · 简单 · 会员 · 大模型、AI、MCP、开发实践
+- [ ] [什么是大模型微调？与预训练的核心区别是什么？](https://www.mianshiya.com/question/1914241827398086657) · 简单 · 会员 · 大模型、AI、微调、预训练
+- [ ] [常见的微调任务有哪些？](https://www.mianshiya.com/question/1914241827695882241) · 简单 · 会员 · 大模型、AI、微调
+- [ ] [常见的微调方法有哪些？](https://www.mianshiya.com/question/1914241827981094914) · 简单 · 会员 · 大模型、AI、微调
+- [ ] [PEFT 是什么？为什么需要 PEFT？](https://www.mianshiya.com/question/1914241828249530369) · 中等 · 会员 · 大模型、AI、微调、PEFT
+- [ ] [参数高效微调（PEFT）的核心思路是什么？列举 3 种典型方法](https://www.mianshiya.com/question/1914241828509577217) · 中等 · 会员 · 大模型、AI、微调、PEFT
+- [ ] [PEFT 和全量微调的区别？](https://www.mianshiya.com/question/1914241828761235457) · 中等 · 会员 · 大模型、AI、微调、PEFT
+- [ ] [在进行 Fine-Tuning 时，如何选择适合的预训练模型？](https://www.mianshiya.com/question/1914241829017088001) · 中等 · 会员 · 大模型、AI、微调、预训练模型
+- [ ] [微调中常用的优化器有哪些？](https://www.mianshiya.com/question/1914241829637844993) · 中等 · 会员 · 大模型、AI、微调、优化器
+- [ ] [如何判断微调效果是否达到预期？](https://www.mianshiya.com/question/1914241829872726018) · 中等 · 会员 · 大模型、AI、微调、评估指标
+- [ ] [介绍几种常见的微调策略的优缺点](https://www.mianshiya.com/question/1914241830145355777) · 中等 · 会员 · 大模型、AI、微调、训练策略
+- [ ] [什么是低秩适配（LoRA）技术？如何结合 LoRA 技术进行微调？](https://www.mianshiya.com/question/1914241830371848193) · 困难 · 会员 · 大模型、AI、微调、LoRA、PEFT
+- [ ] [微调的过拟合风险如何通过正则化缓解？](https://www.mianshiya.com/question/1914241830610923521) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [请详细讨论微调时如何防止灾难性遗忘问题？](https://www.mianshiya.com/question/1914241830887747585) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [在多模态微调（如图文生成）中，如何确保文本和图像数据的对齐质量？](https://www.mianshiya.com/question/1914241831139405825) · 困难 · 会员 · 大模型、AI、微调、多模
+- [ ] [请解释大模型微调(Fine-tuning)的原理，并说明在什么业务场景下需要微调而不是直接使用基础模型？](https://www.mianshiya.com/question/1906191099293376513) · 简单 · 会员 · 大模型
+- [ ] [解释LangChain框架中的Chain和Agent概念，并举例说明各自的应用场景](https://www.mianshiya.com/question/1906192366640078850) · 中等 · 会员 · 大模型
+- [ ] [什么是大模型的涌现能力？列举三种典型表现并解释其可能成因](https://www.mianshiya.com/question/1906192513340055554) · 中等 · 会员 · 大模型
+- [ ] [要让AI生成一个带表单验证的Vue3组件，请写出包含以下要素的Prompt](https://www.mianshiya.com/question/1906308851366666242) · 中等 · 会员 · 大模型
+- [ ] [假设需要让大模型生成一个React表单组件代码，请设计一个包含上下文约束的Prompt（需包含数据验证、错误提示等要求）](https://www.mianshiya.com/question/1906309740869492737) · 中等 · 会员 · 大模型
+- [ ] [请描述使用LangChain构建一个文档问答系统的关键技术组件及实现步骤](https://www.mianshiya.com/question/1906309919110635521) · 中等 · 会员 · 大模型
+- [ ] [假设要开发一个智能工单分类系统，请拆解AI可参与的环节并说明技术选型思路](https://www.mianshiya.com/question/1906310027747856386) · 中等 · 会员 · 大模型
+- [ ] [当需要处理超长大模型上下文窗口限制时，有哪些可行的工程解决方案？](https://www.mianshiya.com/question/1906310101176983554) · 中等 · 会员 · 大模型
+- [ ] [请举例说明假设在电商系统中，哪些功能适合直接使用大模型完成，哪些需要结合工程化手段？](https://www.mianshiya.com/question/1906311697466724354) · 困难 · 会员 · 大模型
+- [ ] [假设请你设计一个医疗问诊系统，如何平衡AI幻觉带来的风险与效率提升？需要哪些技术手段？](https://www.mianshiya.com/question/1906311825103589378) · 困难 · 会员 · 大模型
+- [ ] [设计智能客服系统时，如何通过知识库构建解决长尾问题？请描述具体实现步骤](https://www.mianshiya.com/question/1906312178389262337) · 困难 · 会员 · 大模型
+- [ ] [当大模型API响应延迟超过1秒时，前端可以采取哪些优化策略保证用户体验？](https://www.mianshiya.com/question/1906312460049358849) · 中等 · 会员 · 大模型
+- [ ] [使用LangChain时，如何实现多路召回结果的动态权重分配？](https://www.mianshiya.com/question/1906314200551301121) · 中等 · 会员 · 大模型
+- [ ] [当大模型上下文窗口扩展到100万token时，哪些现有业务场景可能发生质变？](https://www.mianshiya.com/question/1906314337000398849) · 中等 · 会员 · 大模型
+- [ ] [当发现RAG系统召回结果与用户query意图不匹配时，有哪些可能的改进方向？](https://www.mianshiya.com/question/1906314515354787842) · 中等 · 会员 · 大模型
+- [ ] [使用LangChain实现RAG系统时，如何处理PDF文档中的表格数据召回问题？](https://www.mianshiya.com/question/1906316700050853889) · 中等 · 会员 · 大模型
+- [ ] [现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑](https://www.mianshiya.com/question/1906311168761569281) · 中等 · 会员 · 大模型
+- [ ] [参数高效微调（PEFT）如何减少计算成本？](https://www.mianshiya.com/question/1916425036336578561) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [冻结层在微调中的作用是什么？](https://www.mianshiya.com/question/1916425036852477954) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [为什么需要混合精度训练？](https://www.mianshiya.com/question/1916425037343211521) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [模型输出重复和幻觉如何微调解决？](https://www.mianshiya.com/question/1916425037804584962) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [SFT 指令微调数据如何构建？](https://www.mianshiya.com/question/1916425038110769153) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [指令微调的好处？](https://www.mianshiya.com/question/1916425038446313473) · 困难 · 会员 · 大模型、AI、微调
+- [ ] [什么是大模型 Agent？它与传统的 AI 系统有什么不同？](https://www.mianshiya.com/question/1916425038718943233) · 简单 · 会员 · 大模型、AI、Agent、编程导航
+- [ ] [LLM Agent 的基本架构有哪些组成部分？](https://www.mianshiya.com/question/1916425039008350210) · 简单 · 会员 · 大模型、AI、Agent
+- [ ] [LLM Agent 常见功能有哪些？](https://www.mianshiya.com/question/1916425039243231233) · 简单 · 会员 · 大模型、AI、Agent
+- [ ] [Agent智能体的工作过程是怎样的？](https://www.mianshiya.com/question/1916425039528443905) · 中等 · 会员 · 大模型、AI、Agent
+- [ ] [如何让 LLM Agent 具备长期记忆能力？](https://www.mianshiya.com/question/1916425039918514178) · 困难 · 会员 · 大模型、AI、Agent
+- [ ] [LLM Agent 如何进行动态 API 调用？](https://www.mianshiya.com/question/1916425040195338241) · 中等 · 会员 · 大模型、AI、Agent
+- [ ] [LLM Agent 在多模态任务中如何执行推理？](https://www.mianshiya.com/question/1916425040451190785) · 困难 · 会员 · 大模型、AI、Agent
+- [ ] [市面上有哪些主流的 LLM Agent 框架？各自的特点是什么？](https://www.mianshiya.com/question/1916425040719626241) · 简单 · 会员 · 大模型、AI、Agent
+- [ ] [AutoGPT 如何实现自主决策？](https://www.mianshiya.com/question/1916425042661588994) · 困难 · 会员 · 大模型、AI、Agent、LangChain、AutoGPT
+- [ ] [什么是 A2A 协议，它的核心架构及主要组件有哪些？](https://www.mianshiya.com/question/1916425042913247233) · 中等 · 会员 · 大模型、AI、A2A、系统架构
+- [ ] [什么是查询重写？它有什么作用？如何基于 Spring AI 实现查询重写？](https://www.mianshiya.com/question/1929742304764088322) · 中等 · 会员 · 编程导航
+- [ ] [什么是上下文查询增强？它有什么作用？如何基于 Spring AI 实现上下文查询增强来处理无关问题？](https://www.mianshiya.com/question/1929742305481314305) · 中等 · 会员 · 编程导航
+- [ ] [什么是 Spring AI 提出的模块化 RAG 架构？预检索、检索和后检索阶段各自负责什么？](https://www.mianshiya.com/question/1929742305821052929) · 中等 · 会员 · 编程导航
+- [ ] [什么是工具调用 Tool Calling？如何利用 Spring AI 实现工具调用？](https://www.mianshiya.com/question/1929742306206928897) · 中等 · 会员 · 编程导航
+- [ ] [什么是 ReAct？如何基于 ReAct 模式构建具备自主规划能力的 AI 智能体？](https://www.mianshiya.com/question/1929742309012918273) · 困难 · 会员 · 编程导航
+- [ ] [什么是 OpenManus？它的实现原理是什么？](https://www.mianshiya.com/question/1929742309348462593) · 困难 · 会员 · 编程导航
+- [ ] [什么是 CoT 思维链？如何实现 CoT 思维链？](https://www.mianshiya.com/question/1929742309935665154) · 困难 · 会员 · 编程导航
+- [ ] [如何保证 AI 应用的性能和稳定性？](https://www.mianshiya.com/question/1929742311311396865) · 中等 · 会员 · 编程导航
+- [ ] [有哪些设计和优化 Prompt 的技巧？请举例说明](https://www.mianshiya.com/question/1929742545105997826) · 中等 · 会员 · 通用、编程导航
+- [ ] [如何优化 RAG 的检索效果？](https://www.mianshiya.com/question/1929742545445736450) · 困难 · 会员 · 通用、编程导航
+- [ ] [什么是 CoT 思维链和 ReAct 模式？它们如何提高 AI 推理能力？](https://www.mianshiya.com/question/1929742545751920642) · 困难 · 会员 · 通用、编程导航
+- [ ] [本地部署大模型和调用云端大模型各有什么优缺点？](https://www.mianshiya.com/question/1929742546058104833) · 困难 · 会员 · 通用、编程导航
+- [ ] [如何进行 AI 应用的测试和效果评估？](https://www.mianshiya.com/question/1929742546393649154) · 困难 · 会员 · 通用、编程导航
+- [ ] [RAG 的文档处理流程是怎样的？](https://www.mianshiya.com/question/1929742302566273026) · 中等 · 会员 · 编程导航
+- [ ] [提示词优化考虑哪些维度？你们提示词模板有哪些字段？](https://www.mianshiya.com/question/1935974080089128962) · 中等 · 会员 · AI、大模型
+- [ ] [你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？用到了哪些特性？](https://www.mianshiya.com/question/1929742299907084290) · 简单 · 会员 · 编程导航
+- [ ] [你有多个知识库，做 RAG 的时候，怎么保证查询效率和准确性兼容，并尽可能减少幻觉？](https://www.mianshiya.com/question/1935980352104529921) · 中等 · 会员 · AI、大模型、RAG
+- [ ] [如何实现程序和 AI 大模型的集成？有哪些方式？](https://www.mianshiya.com/question/1929742300288765953) · 简单 · 会员 · 编程导航
+- [ ] [Agent 死循环问题有遇到过吗？如何解决？](https://www.mianshiya.com/question/1935997509803618306) · 中等 · 会员 · AI、大模型、场景题
+- [ ] [如何实现 AI 多轮对话功能？如何解决对话记忆持久化问题？](https://www.mianshiya.com/question/1929742301052129281) · 中等 · 会员 · 编程导航
+- [ ] [如果一个GPU集群的LLM处理能力为1000tokenss，那1000个用户同时并发访问，响应给每个用户的性能只有1 tokens吗？怎么分析性能瓶颈](https://www.mianshiya.com/question/1937353814227668994) · 中等 · 会员 · 场景题、大模型
+- [ ] [什么是结构化输出？Spring AI 是怎么实现结构化输出的？](https://www.mianshiya.com/question/1929742301668691969) · 中等 · 会员 · 编程导航
+- [ ] [什么是 Re-Reading？如何基于 Spring AI 实现 Re-Reading Advisor？](https://www.mianshiya.com/question/1929742301949710338) · 中等 · 会员 · 编程导航
+- [ ] [什么是 Spring AI 框架？它有哪些核心特性？](https://www.mianshiya.com/question/1929742299558957057) · 简单 · 会员 · 编程导航
+- [ ] [（OpenClaw前置知识）什么是 AI Agent？它和直接调用大模型 API 做一次问答有什么本质区别？](https://www.mianshiya.com/question/2031664941567598594) · 简单 · AI、OpenClaw、大模型应用开发、AI 应用开发、Agent 开发
+- [ ] [（OpenClaw前置知识）请解释 Tool Calling（工具调用）的完整链路：工具是怎么定义的、LLM 怎么调用它、结果怎么回传](https://www.mianshiya.com/question/2031934134963691521) · 简单 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [（OpenClaw前置知识）System Prompt 在 Agent 系统中承载了哪些职责？如果 System Prompt 越来越长，你会怎么处理？](https://www.mianshiya.com/question/2031943636563812353) · 简单 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [（OpenClaw前置知识）什么是 Agent 的 Context Window？为什么它是 Agent 工程中最核心的约束之一？](https://www.mianshiya.com/question/2031966109057441794) · 简单 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [（OpenClaw前置知识）解释「短期记忆」和「长期记忆」在 Agent 系统中的区别，分别适合怎么存储和检索？](https://www.mianshiya.com/question/2031968091352621057) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 是什么？它要解决什么问题？它的核心能力有哪些？](https://www.mianshiya.com/question/2031972227099942914) · 简单 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 的核心组件有哪些？请描述它们之间的关系](https://www.mianshiya.com/question/2031974625235197953) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [在 OpenClaw 中，一条用户消息从进入系统到收到回复，完整链路是怎样的？](https://www.mianshiya.com/question/2031978073372516354) · 困难 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 的 Agent Runner 是如何工作的？一次 Agent 运行经历了哪些阶段？](https://www.mianshiya.com/question/2031980452067172353) · 困难 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [LLM 的 Context Window 有上限，长对话时如何保证 Agent 仍然能正常工作？OpenClaw 是怎么做的？](https://www.mianshiya.com/question/2031982168447672321) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [Agent 调用工具可能返回超大结果（比如代码搜索返回 50KB），这会带来什么问题？你会怎么处理？OpenClaw 是怎么做的？](https://www.mianshiya.com/question/2031985434829021186) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [当对话历史实在太长、裁剪也不够用时，还有什么办法？什么是 Compaction？OpenClaw 的 Compaction 策略是怎样的？](https://www.mianshiya.com/question/2031992088660303874) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 把 Context 管理抽象成了可插拔的 Context Engine，为什么要做这层抽象？这个设计能支持哪些不同的策略？](https://www.mianshiya.com/question/2032003420637913090) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [如果一个 Agent 系统要同时接入 Telegram、飞书、钉钉等渠道，你会怎么设计抽象层？OpenClaw 的 Channel Plugin 接口是怎么设计的？](https://www.mianshiya.com/question/2032428158229176321) · 简单 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [什么是 AI Agent 中的 Skills？它有什么用？](https://www.mianshiya.com/question/2036355828784586754) · 简单 · AI、大模型、Agent、Skills
+- [ ] [MCP 和 Skills 有什么区别？分别适用于什么场景？](https://www.mianshiya.com/question/2036357514601193474) · 简单 · AI、大模型、Agent、Skills
+- [ ] [如何设计和管理 AI Agent 的 Skills 体系？在实际项目中有哪些挑战？](https://www.mianshiya.com/question/2036358432298131457) · 中等 · AI、大模型、Agent、Skills
+- [ ] [同一个系统里可能有多个 Agent，不同渠道用户群组的消息需要路由到不同的 Agent。你会怎么设计这个路由？OpenClaw 的路由匹配优先级是怎样的？](https://www.mianshiya.com/question/2036708793047400450) · 中等 · AI、OpenClaw、大模型应用开发、Agent开发、AI应用开发
+- [ ] [同一个用户在 Telegram 私聊和 Discord 群组里和 Agent 对话，应该共享会话还是隔离？OpenClaw 是怎么设计会话隔离粒度的？](https://www.mianshiya.com/question/2036711024706535426) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [同一个工具（比如「执行命令」）在不同场景下应该有不同的权限。你会怎么设计工具的权限控制？OpenClaw 的工具策略管道是怎么分层的？](https://www.mianshiya.com/question/2036713958370525186) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [不同的 LLM Provider 对 Tool Schema 的支持不完全一致，你会怎么处理这种差异？OpenClaw 是怎么做 Schema 适配的？](https://www.mianshiya.com/question/2036716799235538945) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发
+- [ ] [Agent 系统中 Hook中间件模式有什么用？能举几个典型场景吗？OpenClaw 的 Hook 系统是怎么设计的？](https://www.mianshiya.com/question/2036720429414039554) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [什么场景下需要多 Agent 协作而不是单个 Agent 解决？OpenClaw 是怎么支持子 Agent（Subagent）的？](https://www.mianshiya.com/question/2036732695857414145) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [父 Agent spawn 子 Agent 时，有哪些边界问题需要考虑？OpenClaw 做了哪些限制和保护？](https://www.mianshiya.com/question/2036734120691843073) · 中等 · AI、大模型应用开发、AI应用开发、Agent开发
+- [ ] [多 Agent 之间如何通信和协调？OpenClaw 的 Gateway 在其中扮演什么角色？](https://www.mianshiya.com/question/2036736171492589570) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 采用插件架构，第三方可以注册新渠道、工具、Hook。设计一个插件系统需要考虑哪些关键问题？OpenClaw 的插件 API 长什么样？](https://www.mianshiya.com/question/2036789078409691137) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [OpenClaw 的 Gateway 对 Agent 请求做了幂等性处理。为什么 Agent 系统特别需要幂等性？工具已经产生副作用时怎么办？](https://www.mianshiya.com/question/2036789985465679873) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [如果让你基于 OpenClaw 的设计理念从零搭建一个 Agent 框架，你会先做哪三个模块？为什么？](https://www.mianshiya.com/question/2036796020414824450) · 中等 · AI、OpenClaw、大模型应用开发、AI应用开发、Agent开发
+- [ ] [什么是 LoRA？它的原理是什么？为什么能减少训练参数？](https://www.mianshiya.com/question/2052284733940838401) · 简单
+- [ ] [微调大模型需要什么样的硬件？7B 和 70B 模型分别需要多少显存？](https://www.mianshiya.com/question/2052284735173963778) · 简单
+- [ ] [LoRA 的数学原理是什么？为什么低秩分解能近似全量微调的效果？](https://www.mianshiya.com/question/2052284735870218241) · 简单
+- [ ] [2026 年主流的微调工具有哪些？Unsloth、Axolotl、TRL 各有什么特点？](https://www.mianshiya.com/question/2052284736440643585) · 简单
+- [ ] [什么是 SFT 指令微调？微调数据需要什么格式？](https://www.mianshiya.com/question/2052284737732489218) · 简单
+- [ ] [RLHF 的完整训练流程是怎样的？从 SFT 到 Reward Model 到 PPO 每个阶段做了什么？](https://www.mianshiya.com/question/2052284738428743681) · 简单
+- [ ] [LoRA 的超参数应该怎么设置？有什么经验法则？](https://www.mianshiya.com/question/2052284739041112066) · 简单
+- [ ] [对比 LoRA、QLoRA、DoRA 和全量微调，在不同场景下应该如何选择？](https://www.mianshiya.com/question/2052284739632508929) · 简单
+- [ ] [什么是 DPO？它相比 RLHF 和 PPO 有什么优势？](https://www.mianshiya.com/question/2052284740194545665) · 简单
+- [ ] [在多模态微调中，如何确保文本和图像数据的对齐质量？有哪些技术挑战？](https://www.mianshiya.com/question/2052284740794331138) · 简单
+- [ ] [微调时出现过拟合怎么办？有哪些正则化方法可以使用？](https://www.mianshiya.com/question/2052284741385728002) · 简单
+- [ ] [为什么需要微调？直接用 Prompt Engineering 或 RAG 不行吗？](https://www.mianshiya.com/question/2052284741981319169) · 简单
+- [ ] [如何评估微调的效果？需要关注哪些指标？](https://www.mianshiya.com/question/2052284742644019201) · 简单
+- [ ] [Adapter Tuning 和 Prefix Tuning 是什么？它们和 LoRA 有什么区别？](https://www.mianshiya.com/question/2052284743201861634) · 简单
+- [ ] [ORPO 是什么？它如何将指令微调和偏好对齐合二为一？](https://www.mianshiya.com/question/2052284743776481281) · 简单
+- [ ] [微调过程中如何防止灾难性遗忘？有哪些实用的缓解策略？](https://www.mianshiya.com/question/2052284744355295233) · 简单
+- [ ] [LoRA 和 QLoRA 有什么区别？各自适合什么场景？](https://www.mianshiya.com/question/2052284744946692098) · 简单
+- [ ] [什么是全量微调？它有哪些优缺点？](https://www.mianshiya.com/question/2052284745517117441) · 简单
+- [ ] [如何构建高质量的 SFT 微调数据集？数据质量和数量哪个更重要？](https://www.mianshiya.com/question/2052284746041405441) · 简单
+- [ ] [A2A 协议中的 Agent Card 是什么？它在多 Agent 发现和协作中起什么作用？](https://www.mianshiya.com/question/2052284761493221377) · 简单 · AI、大模型、Agent
+- [ ] [什么是 Reflexion？它和 ReAct 有什么区别？如何提升 Agent 的自我纠错能力？](https://www.mianshiya.com/question/2052284762055258114) · 简单 · AI、大模型、Agent
+- [ ] [Agent 系统中如何设计优雅的终止条件？避免死循环有哪些策略？](https://www.mianshiya.com/question/2052284762629877762) · 简单 · AI、大模型、Agent
+- [ ] [什么是 Agent Loop（智能体循环）？一个典型的 Agent Loop 包含哪些步骤？](https://www.mianshiya.com/question/2052284763179331586) · 简单 · AI、大模型、Agent
+- [ ] [如何设计一个生产级的 Agent 系统架构？需要考虑哪些关键模块？](https://www.mianshiya.com/question/2052284763770728450) · 简单 · AI、大模型、Agent
+- [ ] [如何评估 AI Agent 的效果？有哪些评估维度和方法？](https://www.mianshiya.com/question/2052284764349542401) · 简单 · AI、大模型、Agent
+- [ ] [如何让 AI Agent 具备长期记忆能力？有哪些存储和检索方案？](https://www.mianshiya.com/question/2052284764907384833) · 简单 · AI、大模型、Agent
+- [ ] [ReAct 推理范式是什么？它如何让 Agent 更可靠地完成任务？](https://www.mianshiya.com/question/2052284765498781698) · 简单 · AI、大模型、Agent
+- [ ] [什么是 A2A 协议？它和 MCP 协议有什么区别？](https://www.mianshiya.com/question/2052284766136315906) · 简单 · AI、大模型、Agent
+- [ ] [MCP 协议的架构包含哪些核心组件？Server 和 Client 分别负责什么？](https://www.mianshiya.com/question/2052284766648020994) · 简单 · AI、大模型、Agent
+- [ ] [MCP 协议是什么？它在 AI Agent 系统中解决了什么问题？](https://www.mianshiya.com/question/2052284767310721026) · 简单 · AI、大模型、Agent
+- [ ] [AI Agent 的核心组件有哪些？感知、决策、执行、记忆各自的作用是什么？](https://www.mianshiya.com/question/2052284768199913474) · 简单 · AI、大模型、Agent
+- [ ] [什么是 AI Agent？它和直接调用大模型 API 有什么区别？](https://www.mianshiya.com/question/2052284768782921729) · 简单 · AI、大模型、Agent
+- [ ] [AI Agent 如何处理工具调用返回超大结果的问题？有哪些实用的解决方案？](https://www.mianshiya.com/question/2052284769391095809) · 简单 · AI、大模型、Agent
+- [ ] [当对话历史超出上下文窗口时，有哪些上下文压缩策略？各自的优缺点是什么？](https://www.mianshiya.com/question/2052284770259316738) · 简单 · AI、大模型、Agent
+- [ ] [MCP 协议和 A2A 协议如何协同工作？请设计一个同时使用两者的多 Agent 系统架构](https://www.mianshiya.com/question/2052284770817159170) · 简单 · AI、大模型、Agent
+- [ ] [在生产环境中，如何保证 Agent 系统的安全性？需要防范哪些风险？](https://www.mianshiya.com/question/2052284771488247809) · 简单 · AI、大模型、Agent
+- [ ] [如果让你从零设计一个 Agent 框架，你会优先实现哪些核心模块？为什么？](https://www.mianshiya.com/question/2052284772146753537) · 简单 · AI、大模型、Agent
+- [ ] [多 Agent 协作有哪些常见的编排模式？各自适合什么场景？](https://www.mianshiya.com/question/2052284772746539009) · 简单 · AI、大模型、Agent
+- [ ] [Agent 系统中的 Function Calling 和 MCP 有什么区别？各自的优缺点是什么？](https://www.mianshiya.com/question/2052284773392461825) · 简单 · AI、大模型、Agent
+- [ ] [什么是 Agent 的上下文窗口？为什么它是 Agent 工程中最核心的约束？](https://www.mianshiya.com/question/2052284774025801729) · 简单 · AI、大模型、Agent
+- [ ] [AI Agent 的记忆机制有哪些类型？短期记忆和长期记忆分别怎么实现？](https://www.mianshiya.com/question/2052284774613004289) · 简单 · AI、大模型、Agent
+- [ ] [什么是 AI Agent 中的工具调用（Tool Calling）？它的基本流程是怎样的？](https://www.mianshiya.com/question/2052284775367979010) · 简单 · AI、大模型、Agent
+- [ ] [如何设计 AI Agent 的工具权限控制？不同场景下的工具应该有什么样的权限差异？](https://www.mianshiya.com/question/2052284775955181570) · 简单 · AI、大模型、Agent
+- [ ] [子 Agent（Subagent）模式有什么优势和挑战？父 Agent 调用子 Agent 时需要考虑哪些边界问题？](https://www.mianshiya.com/question/2052284776634658817) · 简单 · AI、大模型、Agent
+- [ ] [什么是 AI 幻觉（Hallucination）？大模型为什么会产生幻觉？有哪些缓解方法？](https://www.mianshiya.com/question/2052284824680411138) · 简单
+- [ ] [什么是 Agentic Engineering？它和 Vibe Coding 有什么区别？](https://www.mianshiya.com/question/2052284825154367490) · 简单
+- [ ] [什么是 ACP 协议？它有哪两个不同的含义？](https://www.mianshiya.com/question/2052284825611546625) · 简单
+- [ ] [什么是深度思考（Deep Thinking）和自适应思考（Adaptive Thinking）？它们在 AI 编程中有什么应用？](https://www.mianshiya.com/question/2052284826072920065) · 简单
+- [ ] [什么是大模型的涌现能力（Emergent Abilities）？它对 AI 应用开发有什么启示？](https://www.mianshiya.com/question/2052284826525904898) · 简单
+- [ ] [大模型的 Token 是什么？输入 Token 和输出 Token 在计费上有什么区别？](https://www.mianshiya.com/question/2052284827104718849) · 简单
+- [ ] [什么是 Background Agent（后台 Agent）？它改变了 AI 编程的什么工作方式？](https://www.mianshiya.com/question/2052284827616423937) · 简单
+- [ ] [什么是 Token 缓存机制？它如何帮助降低 AI 应用的成本？](https://www.mianshiya.com/question/2052284828061020162) · 简单
+- [ ] [什么是模型蒸馏（Knowledge Distillation）？它和模型量化有什么区别？](https://www.mianshiya.com/question/2052284828564336641) · 简单
+- [ ] [什么是大模型的上下文窗口（Context Window）？不同模型的窗口大小差异对应用开发有什么影响？](https://www.mianshiya.com/question/2052284829025710081) · 简单
+- [ ] [AI 应用中的内容审核应该怎么做？有哪些技术方案和最佳实践？](https://www.mianshiya.com/question/2052284829482889217) · 简单
+- [ ] [什么是上下文压缩（Context Compaction）？有哪些常见的压缩策略？](https://www.mianshiya.com/question/2052284829961039873) · 简单
+- [ ] [什么是红队测试（Red Teaming）？如何对大模型应用进行安全测试？](https://www.mianshiya.com/question/2052284830443384833) · 简单
+- [ ] [什么是上下文工程（Context Engineering）？为什么说它是 2026 年最重要的 AI 工程技能？](https://www.mianshiya.com/question/2052284830934118401) · 简单
+- [ ] [开源大模型和闭源大模型各有什么优劣？2026 年主流的开源和闭源大模型有哪些？](https://www.mianshiya.com/question/2052284831454212097) · 简单
+- [ ] [什么是 Prompt 注入攻击？有哪些常见的攻击方式和防范方法？](https://www.mianshiya.com/question/2052284831865253890) · 简单
+- [ ] [什么是 LLM-as-Judge？用大模型评估大模型靠谱吗？](https://www.mianshiya.com/question/2052284832318238721) · 简单
+- [ ] [如何对 AI 应用进行 A／B 测试？和传统软件的 A／B 测试有什么不同？](https://www.mianshiya.com/question/2052284832804777986) · 简单
+- [ ] [什么是 AI 编程中的自动修复循环（Auto-fix Loop）？它的工作流程和退出策略怎么设计？](https://www.mianshiya.com/question/2052284833341648898) · 简单
+- [ ] [如何评估大模型的能力？主流的 Benchmark 有哪些？](https://www.mianshiya.com/question/2052284833895297026) · 简单
+- [ ] [大模型的训练和推理分别是什么？它们在计算资源需求上有什么区别？](https://www.mianshiya.com/question/2052284834415390722) · 简单
+- [ ] [什么是 AI 护栏（Guardrails）技术？它在生产环境中如何保障 AI 应用的安全？](https://www.mianshiya.com/question/2052284834864181249) · 简单
+- [ ] [如何设计一个安全可控的 AI 系统？从模型层到应用层需要考虑哪些安全维度？](https://www.mianshiya.com/question/2052284835325554690) · 简单
+- [ ] [什么是大模型的参数量？参数量和模型能力之间是什么关系？](https://www.mianshiya.com/question/2052284835795316737) · 简单
+- [ ] [讲一下你对 Transformer 的 Encoder 模块的理解。](https://www.mianshiya.com/question/1821834695759925249) · 中等 · Transformer、Encoder
+- [ ] [K 和 Q 可以使用同一个值通过对自身进行点乘得到吗？](https://www.mianshiya.com/question/1821834694384193537) · 中等 · Transformer
+- [ ] [在进行多头注意力的时候需要对每个 head 进行降维吗？](https://www.mianshiya.com/question/1821834695491489793) · 中等 · Transformer、多头注意力机制
+- [ ] [Transformer 中的"残差连接"可以缓解梯度消失问题吗？](https://www.mianshiya.com/question/1821834697638973442) · 中等 · Transformer、残差连接、梯度消失
+- [ ] [Transformer 中的注意力遮蔽（Attention Masking）的工作原理是什么？](https://www.mianshiya.com/question/1821834696833667074) · 中等 · Transformer、注意力遮蔽
+- [ ] [如何设计提示词来减少 AI 的幻觉问题？](https://www.mianshiya.com/question/1991796947043786753) · 中等 · Prompt、幻觉问题
+- [ ] [什么是 Few-shot Learning？Zero-shot、One-shot、Few-shot 有什么区别？](https://www.mianshiya.com/question/1991796945399619585) · 中等 · Prompt、Few-shot Learning
+- [ ] [如何在 LangChain 中自定义 Tool 工具？](https://www.mianshiya.com/question/1991796955499503618) · 中等 · LangChain、Tool 工具
+- [ ] [LangChain 的 Memory 组件有什么作用？常见的 Memory 类型有哪些？](https://www.mianshiya.com/question/1991796955029741570) · 中等 · LangChain、Memory 记忆机制
+- [ ] [LangChain 中如何实现多轮对话的上下文管理？](https://www.mianshiya.com/question/1991796961639964673) · 简单 · LangChain、上下文管理
+- [ ] [如何减少 RAG 系统的幻觉问题？有哪些实用方法？](https://www.mianshiya.com/question/1991796745444564994) · 困难 · RAG、幻觉问题
+- [ ] [RAG 系统如何标注信息来源和提供引用？](https://www.mianshiya.com/question/1991796743498407937) · 中等 · RAG、引用标注
+- [ ] [请解释 LSTM 和 GRU 网络在处理序列数据中的应用。](https://www.mianshiya.com/question/1821834674037624834) · 中等 · 自然语言处理（NLP）、LSTM、GRU
+- [ ] [什么是 RAG 检索增强生成？它解决了大模型的哪些问题？](https://www.mianshiya.com/question/1991796737861263362) · 简单 · RAG、RAG 基础
+- [ ] [简述 Word Embedding 可以怎样运用于文本分类任务？](https://www.mianshiya.com/question/1821834677762166785) · 中等 · 自然语言处理（NLP）、文本分类、Word Embedding
+- [ ] [LLaMA 有哪些实际应用？](https://www.mianshiya.com/question/1821834678903017474) · 简单 · 自然语言处理（NLP）、大语言模型
+- [ ] [了解 ViT（Vision Transformer） 吗？](https://www.mianshiya.com/question/1821834699513827329) · 中等 · Vision Transformer
+- [ ] [ViLT 模型是如何将 Transformer 应用于图像识别任务的](https://www.mianshiya.com/question/1821834700050698241) · 中等 · ViLT、图像识别
+- [ ] [为什么 Transformer 采用多头注意力机制？](https://www.mianshiya.com/question/1821834694916870145) · 中等 · Transformer、自注意力机制、多头注意力机制
+- [ ] [self attention 中的 K 和 Q 是用来做什么的？](https://www.mianshiya.com/question/1821834694111563778) · 简单 · Transformer、自注意力机制
+- [ ] [Transformer 中如何实现序列到序列的映射？](https://www.mianshiya.com/question/1821834697366343682) · 中等 · Transformer、编解码器
+- [ ] [Transformer 中，如何处理大型数据集？](https://www.mianshiya.com/question/1821834697936769026) · 中等 · Transformer
+- [ ] [如何结合 RAG 和 Fine-tuning 来提升提示词效果？](https://www.mianshiya.com/question/1991796951032569858) · 困难 · Prompt、RAG、Fine-tuning
+- [ ] [如何优化过长的提示词？提示词压缩有哪些技巧？](https://www.mianshiya.com/question/1991796948415324161) · 中等 · Prompt、提示词压缩
+- [ ] [LangChain 中的 Chain 是什么？有哪些常见类型？](https://www.mianshiya.com/question/1991796954488676354) · 简单 · LangChain、Chain 链式调用
+- [ ] [LangChain 支持哪些向量数据库？如何选择？](https://www.mianshiya.com/question/1991796956300615681) · 中等 · LangChain、向量数据库
+- [ ] [如何系统地评估和优化提示词的效果？](https://www.mianshiya.com/question/1991796949623283714) · 困难 · Prompt、效果评估
+- [ ] [RAG 系统中为什么要进行文档切割？有哪些切割策略？](https://www.mianshiya.com/question/1991796740113604609) · 简单 · RAG、文档切割
+- [ ] [RAG 中如何设计 Prompt 来有效利用检索到的文档？](https://www.mianshiya.com/question/1991796742797959169) · 中等 · RAG、Prompt 设计
+- [ ] [如何为 RAG 系统选择合适的 Embedding 模型？](https://www.mianshiya.com/question/1991796740650475521) · 中等 · RAG、Embedding 模型选择
+- [ ] [LSTM 和 GRU 有什么区别？](https://www.mianshiya.com/question/1821834673773383682) · 中等 · 自然语言处理（NLP）、LSTM、GRU
+- [ ] [说说 LSTM 的基本原理。](https://www.mianshiya.com/question/1821834671391019010) · 简单 · 自然语言处理（NLP）、LSTM
+- [ ] [如何比较文本的相似度？](https://www.mianshiya.com/question/1821834676289966082) · 简单 · 自然语言处理（NLP）、文本分类
+- [ ] [chatGLM 和 GPT 在结构上有什么区别？](https://www.mianshiya.com/question/1821834700398825474) · 中等 · Transformer、语言模型
+- [ ] [如何使用提示词实现任务分解？](https://www.mianshiya.com/question/1991796947891036161) · 中等 · Prompt、任务分解
+- [ ] [temperature 和 top_p 参数有什么作用？如何选择合适的值？](https://www.mianshiya.com/question/1991796947287056385) · 中等 · Prompt、模型参数
+- [ ] [什么是提示词模板？如何设计可复用的提示词模板？](https://www.mianshiya.com/question/1991796947622600705) · 中等 · Prompt、提示词模板
+- [ ] [什么是 CoT 思维链？它的工作原理是什么？](https://www.mianshiya.com/question/1991796945911324673) · 中等 · Prompt、CoT 思维链
+- [ ] [LangChain 中如何处理多模态数据？](https://www.mianshiya.com/question/1991796958360018946) · 中等 · LangChain、多模态
+- [ ] [如何处理提示词优化中的常见问题？比如输出不准确、不完整、格式错误](https://www.mianshiya.com/question/1991796950474727425) · 困难 · Prompt、问题诊断
+- [ ] [如何在 LangChain 中实现函数调用 Function Calling？](https://www.mianshiya.com/question/1991796959769305089) · 中等 · LangChain、Function Calling
+- [ ] [LangChain 有哪些常见的性能瓶颈？如何优化？](https://www.mianshiya.com/question/1991796961883234305) · 困难 · LangChain、性能瓶颈
+- [ ] [解释一个 LSTM 单元（LSTM cell）的基本组成，以及它们各自的作用。](https://www.mianshiya.com/question/1821834673223929858) · 中等 · 自然语言处理（NLP）、LSTM
+- [ ] [RAG 为什么需要向量数据库？它和传统数据库有什么区别？](https://www.mianshiya.com/question/1991796738742067202) · 简单 · RAG、向量数据库
+- [ ] [LLaMA 模型中，输入句子的长度理论上是否可以无限长？](https://www.mianshiya.com/question/1821834678357757954) · 困难 · 自然语言处理（NLP）、大语言模型
+- [ ] [了解 LLaMA 中的旋转位置编码吗？](https://www.mianshiya.com/question/1821834678626193410) · 中等 · 自然语言处理（NLP）、大语言模型、旋转位置编码
+- [ ] [了解 Transformer 模型训练中的梯度裁剪（Gradient Clipping）吗？](https://www.mianshiya.com/question/1821834696267436033) · 中等 · Transformer、梯度裁剪
+- [ ] [在不考虑计算量的情况下，head 能否无限增多？](https://www.mianshiya.com/question/1821834695227248642) · 中等 · Transformer、多头注意力机制
+- [ ] [Transformer 为什么采用 Layer Normalization 而不是 Batch Normalization](https://www.mianshiya.com/question/1821834696569425922) · 中等 · Transformer、normalization
+- [ ] [在实际项目中如何进行提示词的 AB 测试和迭代？](https://www.mianshiya.com/question/1991796950168543233) · 困难 · Prompt、A/B 测试
+- [ ] [提示词中的分隔符有什么作用？如何使用？](https://www.mianshiya.com/question/1991796944665616385) · 简单 · Prompt、分隔符
+- [ ] [LangChain 和 LlamaIndex 有什么区别？各自适合什么场景？](https://www.mianshiya.com/question/1991796957315637250) · 中等 · LangChain、LlamaIndex、框架对比
+- [ ] [LangChain 中的 DocumentLoader 有哪些类型？如何选择？](https://www.mianshiya.com/question/1991796957584072706) · 简单 · LangChain、DocumentLoader 文档加载
+- [ ] [Prompt 提示词的基本结构包括哪些部分？](https://www.mianshiya.com/question/1991796943356993538) · 简单 · Prompt、提示词结构
+- [ ] [如何在提示词中设置约束条件和输出要求？](https://www.mianshiya.com/question/1991796944900497410) · 简单 · Prompt、约束条件
+- [ ] [什么是 Prompt Engineering 提示词工程？它的核心价值是什么？](https://www.mianshiya.com/question/1991796942987894786) · 简单 · Prompt、提示词工程基础
+- [ ] [什么是 LangChain 中的 Agent？它和 Chain 有什么区别？](https://www.mianshiya.com/question/1991796954765500417) · 中等 · LangChain、Agent 智能体
+- [ ] [LangChain 中如何实现对话历史的管理和持久化？](https://www.mianshiya.com/question/1991796959194685441) · 中等 · LangChain、对话历史管理
+- [ ] [LangChain 中的 Callback 回调机制是什么？有什么用？](https://www.mianshiya.com/question/1991796959496675330) · 中等 · LangChain、Callback 回调
+- [ ] [RAG 系统如何利用元数据过滤提升检索精度？](https://www.mianshiya.com/question/1991796742504357889) · 中等 · RAG、元数据过滤
+- [ ] [如何为 RAG 项目选择向量数据库？Milvus、Pinecone、Chroma 怎么选？](https://www.mianshiya.com/question/1991796744282742785) · 中等 · RAG、向量数据库选型
+- [ ] [LSTM 中，隐藏状态（hidden state）和单元状态（cell state）有什么区别？](https://www.mianshiya.com/question/1821834673496559618) · 中等 · 自然语言处理（NLP）、LSTM
+- [ ] [什么是注意力机制？它是如何改善 NLP 模型性能的？](https://www.mianshiya.com/question/1821834674301865985) · 中等 · 自然语言处理（NLP）、注意力机制
+- [ ] [如何构建和使用向量索引？HNSW 和 IVF 有什么区别？](https://www.mianshiya.com/question/1991796741598388226) · 中等 · RAG、向量索引
+- [ ] [在文本分类任务中，如何处理样本（类别）不平衡的问题？](https://www.mianshiya.com/question/1821834677187547137) · 中等 · 自然语言处理（NLP）、文本分类
+- [ ] [说说你是怎样有效地优化和微调 BERT，以应对你做过的一些特定的 NLP 任务的？](https://www.mianshiya.com/question/1821834675946033154) · 困难 · 自然语言处理（NLP）、BERT
+- [ ] [简述 LLaMA（Large Language Model Meta AI）的基本原理。](https://www.mianshiya.com/question/1821834678093516802) · 中等 · 自然语言处理（NLP）、大语言模型
+- [ ] [如果让 K 和 Q 变成同一个矩阵，你觉得对模型性能会带来怎样的影响？](https://www.mianshiya.com/question/1821834694635851777) · 困难 · Transformer
+- [ ] [聊一聊 Transformer 的架构和基本原理。](https://www.mianshiya.com/question/1821834692723249153) · 中等 · Transformer
+- [ ] [使用 Transformer 解决了 RNN 面临的一些什么问题？](https://www.mianshiya.com/question/1821834692991684610) · 简单 · Transformer、RNN
+- [ ] [零样本 CoT 和少样本 CoT 有什么区别？各自适合什么场景？](https://www.mianshiya.com/question/1991796946188148737) · 中等 · Prompt、CoT 类型
+- [ ] [什么是提示词链接？如何实现？](https://www.mianshiya.com/question/1991796948738285569) · 中等 · Prompt、提示词链接
+- [ ] [什么是负面提示词？在什么场景下使用？](https://www.mianshiya.com/question/1991796948167860225) · 中等 · Prompt、负面提示词
+- [ ] [什么是角色扮演 Role Playing？如何在提示词中使用？](https://www.mianshiya.com/question/1991796944443318273) · 简单 · Prompt、角色扮演
+- [ ] [LangChain 中的 TextSplitter 文档切分策略有哪些？](https://www.mianshiya.com/question/1991796957865091074) · 中等 · LangChain、文档切分
+- [ ] [Token 是什么？如何计算和控制 Token 数量？](https://www.mianshiya.com/question/1991796943671566338) · 简单 · Prompt、Token
+- [ ] [在生产环境中使用 LangChain 需要注意哪些问题？](https://www.mianshiya.com/question/1991796958603288577) · 困难 · LangChain、生产实践
+- [ ] [如何处理 LangChain 应用中的错误和异常？](https://www.mianshiya.com/question/1991796961388306433) · 中等 · LangChain、异常处理
+- [ ] [LangChain 中的 LCEL 表达式语言是什么？有什么优势？](https://www.mianshiya.com/question/1991796960247455745) · 中等 · LangChain、LCEL
+- [ ] [LangChain 中如何实现条件分支和动态路由？](https://www.mianshiya.com/question/1991796960616554497) · 中等 · LangChain、条件路由
+- [ ] [如何保证 LangChain 应用的输出质量和一致性？](https://www.mianshiya.com/question/1991796962126503937) · 困难 · LangChain、质量保证
+- [ ] [LangChain 中的 Retriever 检索器有哪些类型？各有什么特点？](https://www.mianshiya.com/question/1991796961153425410) · 中等 · LangChain、Retriever 检索器
+- [ ] [RAG 为什么需要重排序 Reranking？如何实现？](https://www.mianshiya.com/question/1991796744790253570) · 困难 · RAG、重排序
+- [ ] [CBOW 和 Skip-gram 分别更适合哪些应用场景？](https://www.mianshiya.com/question/1821834670296305666) · 中等 · 自然语言处理（NLP）、CBOW、Skip-gram
+- [ ] [RAG 中如何计算文本相似度？常见算法有哪些？](https://www.mianshiya.com/question/1991796739656425473) · 简单 · RAG、相似度计算
+- [ ] [聊一聊 ELMo 技术，它有哪些优缺点？可以做到一词多义吗？为什么？](https://www.mianshiya.com/question/1821834671101612034) · 困难 · 自然语言处理（NLP）、ELMo
+- [ ] [RAG 中的 Embedding 向量化是什么？如何工作的？](https://www.mianshiya.com/question/1991796738448465922) · 简单 · RAG、Embedding
+- [ ] [RAG 系统在生产环境中如何优化性能和降低成本？](https://www.mianshiya.com/question/1991796745729777665) · 困难 · RAG、性能优化
+- [ ] [Word2Vec 如何获取词向量？如何评估该训练得到的词向量的好坏？](https://www.mianshiya.com/question/1821834669457444865) · 中等 · 自然语言处理（NLP）、词嵌入、Word2Vec、词向量
+- [ ] [在文本分类任务中，如何处理高维和稀疏数据？](https://www.mianshiya.com/question/1821834676906528770) · 中等 · 自然语言处理（NLP）、文本分类
+- [ ] [Word2Vec 到 BERT 有怎样的改进？](https://www.mianshiya.com/question/1821834675128143874) · 中等 · 自然语言处理（NLP）、BERT、Word2Vec
+- [ ] [如何让 AI 输出指定格式的内容，比如 JSON、表格、Markdown？](https://www.mianshiya.com/question/1991796944137134081) · 简单 · Prompt、格式控制
+- [ ] [LangChain 中的 Prompt 模板有什么作用？如何使用？](https://www.mianshiya.com/question/1991796956015403010) · 简单 · LangChain、Prompt 提示词
+- [ ] [如何优化 LangChain 应用的性能和成本？](https://www.mianshiya.com/question/1991796956988481538) · 困难 · LangChain、性能优化
+- [ ] [什么是系统提示词 System Prompt？它和用户提示词有什么区别？](https://www.mianshiya.com/question/1991796945177321474) · 简单 · Prompt、System Prompt
+- [ ] [什么是 RAG？在 LangChain 中如何实现 RAG 应用？](https://www.mianshiya.com/question/1991796955780521985) · 中等 · LangChain、RAG 检索增强
+- [ ] [什么是自洽性？如何应用？](https://www.mianshiya.com/question/1991796946787934210) · 中等 · Prompt、自洽性
+- [ ] [什么是思维树 Tree of Thoughts？它相比 CoT 有什么优势？](https://www.mianshiya.com/question/1991796950747357185) · 困难 · Prompt、思维树
+- [ ] [LangChain 如何与其他 AI 框架或工具集成？](https://www.mianshiya.com/question/1991796960914350081) · 简单 · LangChain、框架集成
+- [ ] [LangChain 的未来发展趋势如何？有哪些值得关注的方向？](https://www.mianshiya.com/question/1991796962424299522) · 中等 · LangChain、技术趋势
+- [ ] [RAG 检索中的 Top-K 是什么意思？K 值如何确定？](https://www.mianshiya.com/question/1991796740365262849) · 简单 · RAG、Top-K
+- [ ] [RAG 中的查询重写 Query Rewriting 是什么？如何优化检索效果？](https://www.mianshiya.com/question/1991796744526012418) · 困难 · RAG、查询重写
+- [ ] [如何处理 RAG 检索不到相关文档的情况？](https://www.mianshiya.com/question/1991796743116726273) · 中等 · RAG、检索失败处理
+- [ ] [RAG 中如何实现向量数据库的增量更新？](https://www.mianshiya.com/question/1991796743821369345) · 中等 · RAG、增量更新
+- [ ] [请描述 BERT 模型的架构和应用场景。](https://www.mianshiya.com/question/1821834674561912834) · 中等 · 自然语言处理（NLP）、BERT
+- [ ] [BERT 怎样进行 mask 相比 CBOW 有什么区别？](https://www.mianshiya.com/question/1821834675400773634) · 中等 · 自然语言处理（NLP）、BERT、CBOW
+- [ ] [了解 ViLT（Vision-and-Language Transformer） 吗？](https://www.mianshiya.com/question/1821834699778068481) · 困难 · ViLT
+- [ ] [Transformer 和 LLM 有哪些区别](https://www.mianshiya.com/question/1821834699207643137) · 简单 · Transformer、LLM
+- [ ] [什么是自回归属性（autoregressive property）？](https://www.mianshiya.com/question/1821834697093713922) · 中等 · Transformer、自回归属性
+- [ ] [LangChain 的 OutputParser 有什么作用？有哪些常见类型？](https://www.mianshiya.com/question/1991796958846558210) · 简单 · LangChain、OutputParser 输出解析
+- [ ] [什么是上下文窗口 Context Window？它有什么限制？](https://www.mianshiya.com/question/1991796943881281538) · 简单 · Prompt、上下文窗口
+- [ ] [如何让 AI 进行自我反思和迭代优化？](https://www.mianshiya.com/question/1991796949317099522) · 中等 · Prompt、自我反思
+- [ ] [如何让 AI 一步步思考来提升推理能力？](https://www.mianshiya.com/question/1991796946464972802) · 中等 · Prompt、推理引导
+- [ ] [说说 GloVE 技术，怎样进行训练？有哪些应用场景？相比 Word2Vec 有哪些优缺点？](https://www.mianshiya.com/question/1821834670556352514) · 困难 · 自然语言处理（NLP）、Word2Vec、GloVE
+- [ ] [RAG 和模型微调 Fine-tuning 有什么区别？如何选择？](https://www.mianshiya.com/question/1991796739195052033) · 简单 · RAG、Fine-tuning
+- [ ] [与循环神经网络（RNN）相比，LSTM 是如何解决梯度消失问题的？](https://www.mianshiya.com/question/1821834671663648770) · 中等 · 自然语言处理（NLP）、LSTM、RNN、梯度消失
+- [ ] [BERT 是如何处理自然语言文本中不常见词或者罕见词的？](https://www.mianshiya.com/question/1821834674817765378) · 中等 · 自然语言处理（NLP）、BERT
+- [ ] [RAG 的完整工作流程是怎样的？核心步骤有哪些？](https://www.mianshiya.com/question/1991796738154864642) · 简单 · RAG、RAG 流程
+- [ ] [说说 FastText 技术，是否比 Word2Vec 更优越？哪些情况下更适合使用 FastText](https://www.mianshiya.com/question/1821834670824787969) · 困难 · 自然语言处理（NLP）、Word2Vec、FastText
+- [ ] [RAG 系统如何处理 PDF、Word、Markdown 等不同格式文档？](https://www.mianshiya.com/question/1991796740939882498) · 中等 · RAG、文档处理
+- [ ] [RAG 检索时相似度阈值如何设置？设置不当有什么影响？](https://www.mianshiya.com/question/1991796742248505346) · 中等 · RAG、相似度阈值
+- [ ] [解释 hierarchical softmax 的流程，以及它有什么优点？](https://www.mianshiya.com/question/1821834669751046145) · 困难 · 自然语言处理（NLP）、词嵌入、Word2Vec、hierarchical softmax
+- [ ] [现有文本分类算法在处理多语种文本数据时可能遭遇哪些挑战？](https://www.mianshiya.com/question/1821834677502119938) · 中等 · 自然语言处理（NLP）、文本分类
+- [ ] [Transformer 模型的性能瓶颈在哪？](https://www.mianshiya.com/question/1821834698599469057) · 中等 · Transformer
+- [ ] [Transformer 模型训练完成后，如何评估其性能和效果？](https://www.mianshiya.com/question/1821834698230370305) · 中等 · Transformer
+- [ ] [Transformer 的哪个部分最占用显存？](https://www.mianshiya.com/question/1821834693230759937) · 中等 · Transformer
+- [ ] [Transformer 的位置编码是怎样的？](https://www.mianshiya.com/question/1821834693532749826) · 简单 · Transformer、位置编码
+- [ ] [Transformer 在计算 attention 的时候使用的是点乘还是加法？请说明理由。](https://www.mianshiya.com/question/1821834693834739714) · 中等 · Transformer
+- [ ] [Transformer 中，Decoder 阶段的多头自注意力和 Encoder 阶段的多头自注意力是相同的吗？](https://www.mianshiya.com/question/1821834696015777794) · 中等 · Transformer、Encoder、Decoder、多头自注意力机制
+- [ ] [你觉得可以怎样缓解这个性能瓶颈？](https://www.mianshiya.com/question/1821834698867904514) · 困难 · Transformer
+- [ ] [如何选择和设计 Few-shot 示例以提升效果？](https://www.mianshiya.com/question/1991796945655472129) · 中等 · Prompt、Few-shot 示例设计
+- [ ] [在 LangChain 中如何实现流式输出？](https://www.mianshiya.com/question/1991796955252039682) · 中等 · LangChain、流式输出
+- [ ] [LangChain 的 Agent 执行流程是怎样的？](https://www.mianshiya.com/question/1991796956661325825) · 困难 · LangChain、Agent 原理
+- [ ] [如何评估 LangChain RAG 应用的效果？](https://www.mianshiya.com/question/1991796958070611969) · 困难 · LangChain、RAG 评估
+- [ ] [如何为不同领域设计专用提示词？比如编程、创作、数据分析](https://www.mianshiya.com/question/1991796949044469762) · 中等 · Prompt、领域专用提示词
+- [ ] [提示词注入攻击是什么？如何防范？](https://www.mianshiya.com/question/1991796949883330562) · 困难 · Prompt、安全防护
+- [ ] [LangChain 是什么？它主要用来解决什么问题？](https://www.mianshiya.com/question/1991796954178297857) · 简单 · LangChain、LangChain 基础
+- [ ] [如何评估 RAG 系统的效果？检索和生成分别看哪些指标？](https://www.mianshiya.com/question/1991796745104826370) · 困难 · RAG、效果评估
+- [ ] [RAG 中文档切割的 chunk_size 和 overlap 应该如何设置？](https://www.mianshiya.com/question/1991796741313175553) · 中等 · RAG、文档切割参数
+- [ ] [说一说负采样技术在 Word2Vec 中的运用。](https://www.mianshiya.com/question/1821834670023675906) · 中等 · 自然语言处理（NLP）、词嵌入、Word2Vec、负采样
+- [ ] [什么是词嵌入（Word Embedding）？有哪些常见的词嵌入方法？](https://www.mianshiya.com/question/1821834668647944194) · 中等 · 自然语言处理（NLP）、词嵌入、Word2Vec
+- [ ] [Word2Vec 有哪些加速方法？](https://www.mianshiya.com/question/1821834669184815106) · 困难 · 自然语言处理（NLP）、词嵌入、Word2Vec
+- [ ] [什么是 RAG 混合检索？如何实现向量检索和关键词检索结合？](https://www.mianshiya.com/question/1991796741950709762) · 中等 · RAG、混合检索
+- [ ] [是否使用 Word2Vec 训练过数据？在这个过程中，如何获取语料？如何选择超参数？语料、词表和维度大小如何确定？怎样把握训练时长？](https://www.mianshiya.com/question/1821834668916379649) · 困难 · 自然语言处理（NLP）、词嵌入、Word2Vec
+- [ ] [你有什么办法可以比较好地解决 BERT 输入长度的限制？](https://www.mianshiya.com/question/1821834675660820482) · 困难 · 自然语言处理（NLP）、BERT
+- [ ] [支持向量机可以用于文本分类任务吗？若可以，请说明。](https://www.mianshiya.com/question/1821834676600344578) · 简单 · 自然语言处理（NLP）、文本分类、支持向量机
